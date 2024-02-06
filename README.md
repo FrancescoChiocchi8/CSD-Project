@@ -1,5 +1,3 @@
-# CSD-Project
-## Introduction
 This project involves assembling and programming an autonomous multi-robot system in a smart warehouse scenario. The involved robots, i.e., a \textit{robotic arm} and a \textit{smart car}, leverage a Raspberry Pi for computation and the Robot Operating System (ROS2), as the reference robotic framework for programming their behavior. 
 
 After a detailed system analysis, the objective of the project is to develop a cooperative multi-robot system that can operate autonomously. 

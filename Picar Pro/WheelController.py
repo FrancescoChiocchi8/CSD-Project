@@ -4,6 +4,7 @@ import Adafruit_PCA9685 as Adafruit
 
 #servo controller
 pwm = Adafruit.PCA9685()
+pwmFrequency = 50
 
 #board pins
 wheelServoPin = 0
@@ -18,10 +19,10 @@ LeftWheelPin2 = 18
 forward = 1
 backward = 0
 
-#servo directions
-left = 450
+#wheelServo positions
+left = 150
 straight = 300
-right = 150
+right = 450
 
 #setup motors
 def setup():
@@ -34,9 +35,9 @@ def setup():
 	GPIO.setup(RightWheelPin2, GPIO.OUT)
 	GPIO.setup(LeftWheelPin1, GPIO.OUT)
 	GPIO.setup(LeftWheelPin2, GPIO.OUT)
-	
+
 	try:
-		pwm.set_pwm_freq(50)
+		pwm.set_pwm_freq(pwmFrequency)
 		pwmR = GPIO.PWM(RightMotorPin, 1000)
 		pwmL = GPIO.PWM(LeftMotorPin, 1000)
 	except:
@@ -70,6 +71,11 @@ def motorStop():
 	GPIO.output(LeftWheelPin2, GPIO.LOW)
 	GPIO.output(RightMotorPin, GPIO.LOW)
 	GPIO.output(LeftMotorPin, GPIO.LOW)
+	pwm.set_pwm(0, 0, 0)
+	pwm.set_pwm(1, 0, 0)
+	pwm.set_pwm(2, 0, 0)
+	pwm.set_pwm(3, 0, 0)
+	pwm.set_pwm(4, 0, 0)
 	sleep(0.5)
 
 #release resource
@@ -104,10 +110,10 @@ if __name__ == '__main__':
 		setup()
 		
 		#move(speed, 'forward'/'backward', 'left'/'right'/'', duration)
-		move(100, 'forward', 'right', 0.5)
-		move(100, 'forward', 'left', 0.5)
-		move(100, 'backward', '', 1)
-
+		#move(100, 'forward', 'right', 0.5)
+		#move(100, 'forward', 'left', 0.5)
+		#move(100, 'backward', '', 1)
+		
 		releaseMotors()
 	except KeyboardInterrupt:
 		releaseMotors()

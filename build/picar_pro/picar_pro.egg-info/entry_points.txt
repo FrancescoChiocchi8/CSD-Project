@@ -1,0 +1,7 @@
+[console_scripts]
+car_arm_communication = picar_pro.car_arm_communication:main
+claw_motor_car = picar_pro.claw_motor_car:main
+publisher = picar_pro.publisher:main
+servo_handler_car = picar_pro.servo_handler_car:main
+wheels_motor = picar_pro.wheels_motor:main
+

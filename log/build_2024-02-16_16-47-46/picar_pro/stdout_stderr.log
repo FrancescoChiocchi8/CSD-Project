@@ -1,0 +1,30 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating picar_pro.egg-info
+writing picar_pro.egg-info/PKG-INFO
+writing dependency_links to picar_pro.egg-info/dependency_links.txt
+writing entry points to picar_pro.egg-info/entry_points.txt
+writing requirements to picar_pro.egg-info/requires.txt
+writing top-level names to picar_pro.egg-info/top_level.txt
+writing manifest file 'picar_pro.egg-info/SOURCES.txt'
+reading manifest file 'picar_pro.egg-info/SOURCES.txt'
+writing manifest file 'picar_pro.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar-pro.egg-link (link to .)
+Installing car_arm_communication script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+Installing claw_motor script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+Installing publisher_node = picar_pro.publisher_node:mainservo_handler_car script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+Installing wheels_motor script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+
+Installed /home/csd/CSD-Project/build/picar_pro
+running install_data
+creating /home/csd/CSD-Project/install/picar_pro/share/ament_index
+creating /home/csd/CSD-Project/install/picar_pro/share/ament_index/resource_index
+creating /home/csd/CSD-Project/install/picar_pro/share/ament_index/resource_index/packages
+copying resource/picar_pro -> /home/csd/CSD-Project/install/picar_pro/share/ament_index/resource_index/packages
+copying package.xml -> /home/csd/CSD-Project/install/picar_pro/share/picar_pro
+copying launch/Car_launch.py -> /home/csd/CSD-Project/install/picar_pro/share/picar_pro

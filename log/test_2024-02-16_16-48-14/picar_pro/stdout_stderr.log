@@ -1,0 +1,734 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/csd/CSD-Project/build/picar_pro/.pytest_cache
+rootdir: /home/csd/CSD-Project/src/picar_pro
+plugins: launch-testing-ros-0.24.1, ament-xmllint-0.14.3, launch-testing-2.0.2, ament-copyright-0.14.3, ament-pep257-0.14.3, ament-flake8-0.14.3, ament-lint-0.14.3, colcon-core-0.15.2, cov-3.0.0
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 135 code style errors / warnings:[0m
+[1m[31mE     ./launch/Car_launch.py:4:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./launch/Car_launch.py:11:11: W291 trailing whitespace[0m
+[1m[31mE     ./launch/Car_launch.py:17:11: W291 trailing whitespace[0m
+[1m[31mE     ./launch/Car_launch.py:36:2: E122 continuation line missing indentation or outdented[0m
+[1m[31mE     ./launch/Car_launch.py:36:4: W292 no newline at end of file[0m
+[1m[31mE     ./picar_pro/publisher_node.py:19:34: W291 trailing whitespace[0m
+[1m[31mE     ./picar_pro/publisher_node.py:29:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./picar_pro/publisher_node.py:30:11: W292 no newline at end of file[0m
+[1m[31mE     ./picar_pro/car_arm_communication.py:5:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/car_arm_communication.py:9:100: E501 line too long (106 > 99 characters)[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:6:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:10:100: E501 line too long (105 > 99 characters)[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:26:17: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:29:13: E303 too many blank lines (2)[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:31:43: W291 trailing whitespace[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:36:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:37:5: E303 too many blank lines (2)[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:38:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:44:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:51:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./picar_pro/claw_motor_car.py:52:11: W292 no newline at end of file[0m
+[1m[31mE     ./picar_pro/servo_handler_car.py:5:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/servo_handler_car.py:9:100: E501 line too long (102 > 99 characters)[0m
+[1m[31mE     ./picar_pro/servo_handler_car.py:37:11: W292 no newline at end of file[0m
+[1m[31mE     ./picar_pro/wheels_motor.py:6:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/wheels_motor.py:10:100: E501 line too long (105 > 99 characters)[0m
+[1m[31mE     ./picar_pro/wheels_motor.py:26:17: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/wheels_motor.py:30:38: W291 trailing whitespace[0m
+[1m[31mE     ./picar_pro/wheels_motor.py:36:5: E303 too many blank lines (2)[0m
+[1m[31mE     ./picar_pro/wheels_motor.py:47:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./picar_pro/wheels_motor.py:48:11: W292 no newline at end of file[0m
+[1m[31mE     ./picar_pro/move/ServoController.py:2:1: F401 'time.sleep' imported but unused[0m
+[1m[31mE     ./picar_pro/move/ServoController.py:6:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/move/ServoController.py:8:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./picar_pro/move/ServoController.py:9:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/move/ServoController.py:10:17: W291 trailing whitespace[0m
+[1m[31mE     ./picar_pro/move/ServoController.py:12:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./picar_pro/move/ServoController.py:13:11: W292 no newline at end of file[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:5:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:9:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:18:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:22:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:27:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:28:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:29:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:30:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:31:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:32:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:33:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:34:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:35:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:36:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:37:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:39:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:40:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:41:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:42:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:43:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:43:2: E722 do not use bare 'except'[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:44:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:46:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:47:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:48:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:49:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:50:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:51:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:53:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:54:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:56:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:57:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:58:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:59:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:60:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:61:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:63:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:64:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:66:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:67:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:68:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:69:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:70:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:71:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:72:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:73:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:74:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:75:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:76:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:77:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:78:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:79:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:81:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:82:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:83:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:84:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:86:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:87:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:88:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:88:21: E701 multiple statements on one line (colon)[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:89:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:89:22: E701 multiple statements on one line (colon)[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:91:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:92:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:94:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:95:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:95:21: E701 multiple statements on one line (colon)[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:96:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:96:22: E701 multiple statements on one line (colon)[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:97:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:97:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:98:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:99:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:101:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:102:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:104:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:105:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:106:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:108:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:109:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:110:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:111:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:111:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:112:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:112:3: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:113:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:113:3: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:114:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:114:3: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:115:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:115:3: E265 block comment should start with '# '[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:116:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:116:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:117:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:118:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:119:1: W191 indentation contains tabs[0m
+[1m[31mE     ./picar_pro/move/WheelController.py:119:18: W292 no newline at end of file[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./launch/Car_launch.py:4:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./launch/Car_launch.py:11:11: W291 trailing whitespace
+        ),  
+          ^
+
+./launch/Car_launch.py:17:11: W291 trailing whitespace
+        ),  
+          ^
+
+./launch/Car_launch.py:36:2: E122 continuation line missing indentation or outdented
+ ]) ^
+
+./launch/Car_launch.py:36:4: W292 no newline at end of file
+ ])   ^
+
+./picar_pro/publisher_node.py:19:34: W291 trailing whitespace
+            self.published = True 
+                                 ^
+
+./picar_pro/publisher_node.py:29:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./picar_pro/publisher_node.py:30:11: W292 no newline at end of file
+    main()          ^
+
+./picar_pro/car_arm_communication.py:5:1: E302 expected 2 blank lines, found 1
+class CarArmCommunication(Node):
+^
+
+./picar_pro/car_arm_communication.py:9:100: E501 line too long (106 > 99 characters)
+        self.subscription = self.create_subscription(String, '/car_msg_topic', self.listener_callback, 10)
+                                                                                                   ^
+
+./picar_pro/claw_motor_car.py:6:1: E302 expected 2 blank lines, found 1
+class ClawMotorCar(Node):
+^
+
+./picar_pro/claw_motor_car.py:10:100: E501 line too long (105 > 99 characters)
+        self.subscription = self.create_subscription(String, '/wheels_topic', self.listener_callback, 10)
+                                                                                                   ^
+
+./picar_pro/claw_motor_car.py:26:17: E265 block comment should start with '# '
+                #self.moving_servos(50, 30, 90, 90)
+                ^
+
+./picar_pro/claw_motor_car.py:29:13: E303 too many blank lines (2)
+            elif self.mess.data == 'rettangolo':
+            ^
+
+./picar_pro/claw_motor_car.py:31:43: W291 trailing whitespace
+                self.starting_positions(0) 
+                                          ^
+
+./picar_pro/claw_motor_car.py:36:1: W293 blank line contains whitespace
+   
+^
+
+./picar_pro/claw_motor_car.py:37:5: E303 too many blank lines (2)
+    def moving_servos(self, angle1, angle2, angle3, angle4):
+    ^
+
+./picar_pro/claw_motor_car.py:38:1: W293 blank line contains whitespace
+        
+^
+
+./picar_pro/claw_motor_car.py:44:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./picar_pro/claw_motor_car.py:51:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./picar_pro/claw_motor_car.py:52:11: W292 no newline at end of file
+    main()          ^
+
+./picar_pro/servo_handler_car.py:5:1: E302 expected 2 blank lines, found 1
+class ServoHandlerCar(Node):
+^
+
+./picar_pro/servo_handler_car.py:9:100: E501 line too long (102 > 99 characters)
+        self.subscription = self.create_subscription(String, '/obj_topic', self.listener_callback, 10)
+                                                                                                   ^
+
+./picar_pro/servo_handler_car.py:37:11: W292 no newline at end of file
+    main()          ^
+
+./picar_pro/wheels_motor.py:6:1: E302 expected 2 blank lines, found 1
+class WheelsMotor(Node):
+^
+
+./picar_pro/wheels_motor.py:10:100: E501 line too long (105 > 99 characters)
+        self.subscription = self.create_subscription(String, '/wheels_topic', self.listener_callback, 10)
+                                                                                                   ^
+
+./picar_pro/wheels_motor.py:26:17: E265 block comment should start with '# '
+                #self.moving_servos(50, 30, 90, 90)
+                ^
+
+./picar_pro/wheels_motor.py:30:38: W291 trailing whitespace
+                self.moving_servos(0) 
+                                     ^
+
+./picar_pro/wheels_motor.py:36:5: E303 too many blank lines (2)
+    def moving_servos(self, angle):
+    ^
+
+./picar_pro/wheels_motor.py:47:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./picar_pro/wheels_motor.py:48:11: W292 no newline at end of file
+    main()          ^
+
+./picar_pro/move/ServoController.py:2:1: F401 'time.sleep' imported but unused
+from time import sleep
+^
+
+./picar_pro/move/ServoController.py:6:1: E302 expected 2 blank lines, found 1
+def move(servoPin, angle):
+^
+
+./picar_pro/move/ServoController.py:8:1: W293 blank line contains whitespace
+    
+^
+
+./picar_pro/move/ServoController.py:9:1: E302 expected 2 blank lines, found 1
+def main():
+^
+
+./picar_pro/move/ServoController.py:10:17: W291 trailing whitespace
+    move(15, 60)   
+                ^
+
+./picar_pro/move/ServoController.py:12:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./picar_pro/move/ServoController.py:13:11: W292 no newline at end of file
+    main()          ^
+
+./picar_pro/move/WheelController.py:5:1: E265 block comment should start with '# '
+#servo controller
+^
+
+./picar_pro/move/WheelController.py:9:1: E265 block comment should start with '# '
+#board pins
+^
+
+./picar_pro/move/WheelController.py:18:1: E265 block comment should start with '# '
+#motors directions
+^
+
+./picar_pro/move/WheelController.py:22:1: E265 block comment should start with '# '
+#wheelServo positions
+^
+
+./picar_pro/move/WheelController.py:27:1: E265 block comment should start with '# '
+#setup motors
+^
+
+./picar_pro/move/WheelController.py:28:1: E302 expected 2 blank lines, found 1
+def setup():
+^
+
+./picar_pro/move/WheelController.py:29:1: W191 indentation contains tabs
+	global pwmR, pwmL
+^
+
+./picar_pro/move/WheelController.py:30:1: W191 indentation contains tabs
+	GPIO.setwarnings(False)
+^
+
+./picar_pro/move/WheelController.py:31:1: W191 indentation contains tabs
+	GPIO.setmode(GPIO.BCM)
+^
+
+./picar_pro/move/WheelController.py:32:1: W191 indentation contains tabs
+	GPIO.setup(RightMotorPin, GPIO.OUT)
+^
+
+./picar_pro/move/WheelController.py:33:1: W191 indentation contains tabs
+	GPIO.setup(LeftMotorPin, GPIO.OUT)
+^
+
+./picar_pro/move/WheelController.py:34:1: W191 indentation contains tabs
+	GPIO.setup(RightWheelPin1, GPIO.OUT)
+^
+
+./picar_pro/move/WheelController.py:35:1: W191 indentation contains tabs
+	GPIO.setup(RightWheelPin2, GPIO.OUT)
+^
+
+./picar_pro/move/WheelController.py:36:1: W191 indentation contains tabs
+	GPIO.setup(LeftWheelPin1, GPIO.OUT)
+^
+
+./picar_pro/move/WheelController.py:37:1: W191 indentation contains tabs
+	GPIO.setup(LeftWheelPin2, GPIO.OUT)
+^
+
+./picar_pro/move/WheelController.py:39:1: W191 indentation contains tabs
+	try:
+^
+
+./picar_pro/move/WheelController.py:40:1: W191 indentation contains tabs
+		pwm.set_pwm_freq(pwmFrequency)
+^
+
+./picar_pro/move/WheelController.py:41:1: W191 indentation contains tabs
+		pwmR = GPIO.PWM(RightMotorPin, 1000)
+^
+
+./picar_pro/move/WheelController.py:42:1: W191 indentation contains tabs
+		pwmL = GPIO.PWM(LeftMotorPin, 1000)
+^
+
+./picar_pro/move/WheelController.py:43:1: W191 indentation contains tabs
+	except:
+^
+
+./picar_pro/move/WheelController.py:43:2: E722 do not use bare 'except'
+	except:
+	^
+
+./picar_pro/move/WheelController.py:44:1: W191 indentation contains tabs
+		pass
+^
+
+./picar_pro/move/WheelController.py:46:1: E265 block comment should start with '# '
+#move motors forward
+^
+
+./picar_pro/move/WheelController.py:47:1: E302 expected 2 blank lines, found 1
+def motorForward(speed):
+^
+
+./picar_pro/move/WheelController.py:48:1: W191 indentation contains tabs
+	GPIO.output(LeftWheelPin1, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:49:1: W191 indentation contains tabs
+	GPIO.output(LeftWheelPin2, GPIO.HIGH)
+^
+
+./picar_pro/move/WheelController.py:50:1: W191 indentation contains tabs
+	GPIO.output(RightWheelPin1, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:51:1: W191 indentation contains tabs
+	GPIO.output(RightWheelPin2, GPIO.HIGH)
+^
+
+./picar_pro/move/WheelController.py:53:1: W191 indentation contains tabs
+	pwmL.start(speed)
+^
+
+./picar_pro/move/WheelController.py:54:1: W191 indentation contains tabs
+	pwmR.start(speed)
+^
+
+./picar_pro/move/WheelController.py:56:1: E265 block comment should start with '# '
+#move motors backward
+^
+
+./picar_pro/move/WheelController.py:57:1: E302 expected 2 blank lines, found 1
+def motorBackward(speed):
+^
+
+./picar_pro/move/WheelController.py:58:1: W191 indentation contains tabs
+	GPIO.output(LeftWheelPin1, GPIO.HIGH)
+^
+
+./picar_pro/move/WheelController.py:59:1: W191 indentation contains tabs
+	GPIO.output(LeftWheelPin2, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:60:1: W191 indentation contains tabs
+	GPIO.output(RightWheelPin1, GPIO.HIGH)
+^
+
+./picar_pro/move/WheelController.py:61:1: W191 indentation contains tabs
+	GPIO.output(RightWheelPin2, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:63:1: W191 indentation contains tabs
+	pwmL.start(speed)
+^
+
+./picar_pro/move/WheelController.py:64:1: W191 indentation contains tabs
+	pwmR.start(speed)
+^
+
+./picar_pro/move/WheelController.py:66:1: E265 block comment should start with '# '
+#stop motors
+^
+
+./picar_pro/move/WheelController.py:67:1: E302 expected 2 blank lines, found 1
+def motorStop():
+^
+
+./picar_pro/move/WheelController.py:68:1: W191 indentation contains tabs
+	GPIO.output(RightWheelPin1, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:69:1: W191 indentation contains tabs
+	GPIO.output(RightWheelPin2, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:70:1: W191 indentation contains tabs
+	GPIO.output(LeftWheelPin1, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:71:1: W191 indentation contains tabs
+	GPIO.output(LeftWheelPin2, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:72:1: W191 indentation contains tabs
+	GPIO.output(RightMotorPin, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:73:1: W191 indentation contains tabs
+	GPIO.output(LeftMotorPin, GPIO.LOW)
+^
+
+./picar_pro/move/WheelController.py:74:1: W191 indentation contains tabs
+	pwm.set_pwm(0, 0, 0)
+^
+
+./picar_pro/move/WheelController.py:75:1: W191 indentation contains tabs
+	pwm.set_pwm(1, 0, 0)
+^
+
+./picar_pro/move/WheelController.py:76:1: W191 indentation contains tabs
+	pwm.set_pwm(2, 0, 0)
+^
+
+./picar_pro/move/WheelController.py:77:1: W191 indentation contains tabs
+	pwm.set_pwm(3, 0, 0)
+^
+
+./picar_pro/move/WheelController.py:78:1: W191 indentation contains tabs
+	pwm.set_pwm(4, 0, 0)
+^
+
+./picar_pro/move/WheelController.py:79:1: W191 indentation contains tabs
+	sleep(0.5)
+^
+
+./picar_pro/move/WheelController.py:81:1: E265 block comment should start with '# '
+#release resource
+^
+
+./picar_pro/move/WheelController.py:82:1: E302 expected 2 blank lines, found 1
+def releaseMotors():
+^
+
+./picar_pro/move/WheelController.py:83:1: W191 indentation contains tabs
+	motorStop()
+^
+
+./picar_pro/move/WheelController.py:84:1: W191 indentation contains tabs
+	GPIO.cleanup()
+^
+
+./picar_pro/move/WheelController.py:86:1: E302 expected 2 blank lines, found 1
+def move(speed, direction, turn, duration):
+^
+
+./picar_pro/move/WheelController.py:87:1: W191 indentation contains tabs
+	if direction == 'forward':
+^
+
+./picar_pro/move/WheelController.py:88:1: W191 indentation contains tabs
+		if turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)
+^
+
+./picar_pro/move/WheelController.py:88:21: E701 multiple statements on one line (colon)
+		if turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)
+		                  ^
+
+./picar_pro/move/WheelController.py:89:1: W191 indentation contains tabs
+		elif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)
+^
+
+./picar_pro/move/WheelController.py:89:22: E701 multiple statements on one line (colon)
+		elif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)
+		                   ^
+
+./picar_pro/move/WheelController.py:91:1: W191 indentation contains tabs
+		sleep(0.5)
+^
+
+./picar_pro/move/WheelController.py:92:1: W191 indentation contains tabs
+		motorForward(speed)
+^
+
+./picar_pro/move/WheelController.py:94:1: W191 indentation contains tabs
+	elif direction == 'backward':
+^
+
+./picar_pro/move/WheelController.py:95:1: W191 indentation contains tabs
+		if turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)
+^
+
+./picar_pro/move/WheelController.py:95:21: E701 multiple statements on one line (colon)
+		if turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)
+		                  ^
+
+./picar_pro/move/WheelController.py:96:1: W191 indentation contains tabs
+		elif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)
+^
+
+./picar_pro/move/WheelController.py:96:22: E701 multiple statements on one line (colon)
+		elif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)
+		                   ^
+
+./picar_pro/move/WheelController.py:97:1: W191 indentation contains tabs
+		
+^
+
+./picar_pro/move/WheelController.py:97:1: W293 blank line contains whitespace
+		
+^
+
+./picar_pro/move/WheelController.py:98:1: W191 indentation contains tabs
+		sleep(0.5)
+^
+
+./picar_pro/move/WheelController.py:99:1: W191 indentation contains tabs
+		motorBackward(speed)
+^
+
+./picar_pro/move/WheelController.py:101:1: W191 indentation contains tabs
+	else:
+^
+
+./picar_pro/move/WheelController.py:102:1: W191 indentation contains tabs
+		motorStop()
+^
+
+./picar_pro/move/WheelController.py:104:1: W191 indentation contains tabs
+	sleep(duration)
+^
+
+./picar_pro/move/WheelController.py:105:1: W191 indentation contains tabs
+	pwm.set_pwm(wheelServoPin, 0, straight)
+^
+
+./picar_pro/move/WheelController.py:106:1: W191 indentation contains tabs
+	motorStop()
+^
+
+./picar_pro/move/WheelController.py:108:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./picar_pro/move/WheelController.py:109:1: W191 indentation contains tabs
+	try:
+^
+
+./picar_pro/move/WheelController.py:110:1: W191 indentation contains tabs
+		setup()
+^
+
+./picar_pro/move/WheelController.py:111:1: W191 indentation contains tabs
+		
+^
+
+./picar_pro/move/WheelController.py:111:1: W293 blank line contains whitespace
+		
+^
+
+./picar_pro/move/WheelController.py:112:1: W191 indentation contains tabs
+		#move(speed, 'forward'/'backward', 'left'/'right'/'', duration)
+^
+
+./picar_pro/move/WheelController.py:112:3: E265 block comment should start with '# '
+		#move(speed, 'forward'/'backward', 'left'/'right'/'', duration)
+		^
+
+./picar_pro/move/WheelController.py:113:1: W191 indentation contains tabs
+		#move(100, 'forward', 'right', 0.5)
+^
+
+./picar_pro/move/WheelController.py:113:3: E265 block comment should start with '# '
+		#move(100, 'forward', 'right', 0.5)
+		^
+
+./picar_pro/move/WheelController.py:114:1: W191 indentation contains tabs
+		#move(100, 'forward', 'left', 0.5)
+^
+
+./picar_pro/move/WheelController.py:114:3: E265 block comment should start with '# '
+		#move(100, 'forward', 'left', 0.5)
+		^
+
+./picar_pro/move/WheelController.py:115:1: W191 indentation contains tabs
+		#move(100, 'backward', '', 1)
+^
+
+./picar_pro/move/WheelController.py:115:3: E265 block comment should start with '# '
+		#move(100, 'backward', '', 1)
+		^
+
+./picar_pro/move/WheelController.py:116:1: W191 indentation contains tabs
+		
+^
+
+./picar_pro/move/WheelController.py:116:1: W293 blank line contains whitespace
+		
+^
+
+./picar_pro/move/WheelController.py:117:1: W191 indentation contains tabs
+		releaseMotors()
+^
+
+./picar_pro/move/WheelController.py:118:1: W191 indentation contains tabs
+	except KeyboardInterrupt:
+^
+
+./picar_pro/move/WheelController.py:119:1: W191 indentation contains tabs
+		releaseMotors()^
+
+./picar_pro/move/WheelController.py:119:18: W292 no newline at end of file
+		releaseMotors()		               ^
+
+1     E122 continuation line missing indentation or outdented
+15    E265 block comment should start with '# '
+14    E302 expected 2 blank lines, found 1
+3     E303 too many blank lines (2)
+5     E305 expected 2 blank lines after class or function definition, found 1
+4     E501 line too long (106 > 99 characters)
+[33m=============================== warnings summary ===============================[0m
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+4     E701 multiple statements on one line (colon)
+1     E722 do not use bare 'except'
+1     F401 'time.sleep' imported but unused
+68    W191 indentation contains tabs
+6     W291 trailing whitespace
+7     W292 no newline at end of file
+6     W293 blank line contains whitespace
+
+13 files checked
+135 errors
+
+'E'-type errors: 47
+'F'-type errors: 1
+'W'-type errors: 87
+
+Checked files:
+
+* ./setup.py
+* ./launch/Car_launch.py
+* ./picar_pro/publisher_node.py
+* ./picar_pro/car_arm_communication.py
+* ./picar_pro/claw_motor_car.py
+* ./picar_pro/servo_handler_car.py
+* ./picar_pro/__init__.py
+* ./picar_pro/wheels_motor.py
+* ./picar_pro/move/ServoController.py
+* ./picar_pro/move/WheelController.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+----- generated xml file: /home/csd/CSD-Project/build/picar_pro/pytest.xml -----
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 135 code styl...
+[31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 1.47s[0m[31m ==============[0m

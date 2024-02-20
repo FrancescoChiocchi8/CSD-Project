@@ -1,0 +1,31 @@
+[3.011s] Invoking command in '/home/csd/CSD-Project/src/picar_pro': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed
+[3.957s] running egg_info
+[3.959s] writing ../../build/picar_pro/picar_pro.egg-info/PKG-INFO
+[3.960s] writing dependency_links to ../../build/picar_pro/picar_pro.egg-info/dependency_links.txt
+[3.961s] writing entry points to ../../build/picar_pro/picar_pro.egg-info/entry_points.txt
+[3.962s] writing requirements to ../../build/picar_pro/picar_pro.egg-info/requires.txt
+[3.962s] writing top-level names to ../../build/picar_pro/picar_pro.egg-info/top_level.txt
+[3.970s] reading manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+[3.972s] adding license file 'LICENSE'
+[3.975s] writing manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+[3.975s] running build
+[3.975s] running build_py
+[3.977s] copying picar_pro/publisher.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[3.979s] running install
+[3.979s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.980s]   warnings.warn(
+[3.980s] running install_lib
+[3.985s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/publisher.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[3.988s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/publisher.py to publisher.cpython-310.pyc
+[3.991s] running install_data
+[3.993s] running install_egg_info
+[3.999s] removing '/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info' (and everything under it)
+[4.001s] Copying ../../build/picar_pro/picar_pro.egg-info to /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info
+[4.006s] running install_scripts
+[4.082s] Installing car_arm_communication script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.083s] Installing claw_motor_car script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.083s] Installing publisher_node script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.084s] Installing servo_handler_car script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.085s] Installing wheels_motor script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.087s] writing list of installed files to '/home/csd/CSD-Project/build/picar_pro/install.log'
+[4.200s] Invoked command in '/home/csd/CSD-Project/src/picar_pro' returned '0': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed

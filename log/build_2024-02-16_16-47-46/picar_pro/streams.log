@@ -1,0 +1,32 @@
+[3.483s] Invoking command in '/home/csd/CSD-Project/build/picar_pro': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/csd/CSD-Project/build/picar_pro/build --no-deps install_data
+[4.498s] running develop
+[4.505s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.506s]   warnings.warn(
+[4.512s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.513s]   warnings.warn(
+[5.140s] running egg_info
+[5.141s] creating picar_pro.egg-info
+[5.141s] writing picar_pro.egg-info/PKG-INFO
+[5.142s] writing dependency_links to picar_pro.egg-info/dependency_links.txt
+[5.143s] writing entry points to picar_pro.egg-info/entry_points.txt
+[5.144s] writing requirements to picar_pro.egg-info/requires.txt
+[5.144s] writing top-level names to picar_pro.egg-info/top_level.txt
+[5.145s] writing manifest file 'picar_pro.egg-info/SOURCES.txt'
+[5.151s] reading manifest file 'picar_pro.egg-info/SOURCES.txt'
+[5.154s] writing manifest file 'picar_pro.egg-info/SOURCES.txt'
+[5.160s] running build_ext
+[5.160s] Creating /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar-pro.egg-link (link to .)
+[5.164s] Installing car_arm_communication script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[5.164s] Installing claw_motor script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[5.165s] Installing publisher_node = picar_pro.publisher_node:mainservo_handler_car script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[5.166s] Installing wheels_motor script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[5.167s] 
+[5.167s] Installed /home/csd/CSD-Project/build/picar_pro
+[5.168s] running install_data
+[5.168s] creating /home/csd/CSD-Project/install/picar_pro/share/ament_index
+[5.169s] creating /home/csd/CSD-Project/install/picar_pro/share/ament_index/resource_index
+[5.169s] creating /home/csd/CSD-Project/install/picar_pro/share/ament_index/resource_index/packages
+[5.169s] copying resource/picar_pro -> /home/csd/CSD-Project/install/picar_pro/share/ament_index/resource_index/packages
+[5.170s] copying package.xml -> /home/csd/CSD-Project/install/picar_pro/share/picar_pro
+[5.170s] copying launch/Car_launch.py -> /home/csd/CSD-Project/install/picar_pro/share/picar_pro
+[5.301s] Invoked command in '/home/csd/CSD-Project/build/picar_pro' returned '0': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/csd/CSD-Project/build/picar_pro/build --no-deps install_data

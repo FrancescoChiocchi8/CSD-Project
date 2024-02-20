@@ -1,0 +1,789 @@
+[0.000000] (-) TimerEvent: {}
+[0.001541] (picar_pro) JobQueued: {'identifier': 'picar_pro', 'dependencies': OrderedDict([('picar_pro', '/home/csd/CSD-Project/install/picar_pro')])}
+[0.002135] (picar_pro) JobStarted: {'identifier': 'picar_pro'}
+[0.099025] (-) TimerEvent: {}
+[0.200270] (-) TimerEvent: {}
+[0.301960] (-) TimerEvent: {}
+[0.402599] (-) TimerEvent: {}
+[0.503244] (-) TimerEvent: {}
+[0.603847] (-) TimerEvent: {}
+[0.704469] (-) TimerEvent: {}
+[0.805066] (-) TimerEvent: {}
+[0.905675] (-) TimerEvent: {}
+[1.006285] (-) TimerEvent: {}
+[1.106874] (-) TimerEvent: {}
+[1.207565] (-) TimerEvent: {}
+[1.303923] (picar_pro) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/csd/CSD-Project/src/picar_pro', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'it_IT.UTF-8', 'USER': 'csd', 'SSH_CLIENT': '192.168.81.164 50157 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/csd', 'OLDPWD': '/home/csd/CSD-Project/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'iron', 'LOGNAME': 'csd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '3', 'PATH': '/home/csd/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'it_IT.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/csd/CSD-Project/install/picar_pro:/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/csd/CSD-Project/build/picar_pro', 'LC_ALL': 'it_IT.UTF-8', 'SSH_CONNECTION': '192.168.81.164 50157 192.168.81.97 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/csd/CSD-Project/build/picar_pro:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/csd/CSD-Project/build/picar_pro/pytest.xml --junit-prefix=picar_pro -o cache_dir=/home/csd/CSD-Project/build/picar_pro/.pytest_cache'}, 'shell': False}
+[1.315002] (-) TimerEvent: {}
+[1.417387] (-) TimerEvent: {}
+[1.518124] (-) TimerEvent: {}
+[1.618784] (-) TimerEvent: {}
+[1.719460] (-) TimerEvent: {}
+[1.820098] (-) TimerEvent: {}
+[1.920807] (-) TimerEvent: {}
+[2.021444] (-) TimerEvent: {}
+[2.122096] (-) TimerEvent: {}
+[2.222732] (-) TimerEvent: {}
+[2.323484] (-) TimerEvent: {}
+[2.424187] (-) TimerEvent: {}
+[2.524852] (-) TimerEvent: {}
+[2.625670] (-) TimerEvent: {}
+[2.726342] (-) TimerEvent: {}
+[2.826949] (-) TimerEvent: {}
+[2.891444] (picar_pro) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[2.892122] (picar_pro) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[2.909708] (picar_pro) StdoutLine: {'line': b'cachedir: /home/csd/CSD-Project/build/picar_pro/.pytest_cache\n'}
+[2.910386] (picar_pro) StdoutLine: {'line': b'rootdir: /home/csd/CSD-Project/src/picar_pro\n'}
+[2.910738] (picar_pro) StdoutLine: {'line': b'plugins: launch-testing-ros-0.24.1, ament-xmllint-0.14.3, launch-testing-2.0.2, ament-copyright-0.14.3, ament-pep257-0.14.3, ament-flake8-0.14.3, ament-lint-0.14.3, colcon-core-0.15.2, cov-3.0.0\n'}
+[2.927087] (-) TimerEvent: {}
+[3.027749] (-) TimerEvent: {}
+[3.128374] (-) TimerEvent: {}
+[3.229059] (-) TimerEvent: {}
+[3.329698] (-) TimerEvent: {}
+[3.342999] (picar_pro) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[3.343537] (picar_pro) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[3.344196] (picar_pro) StdoutLine: {'line': b'\n'}
+[3.363412] (picar_pro) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[3.429841] (-) TimerEvent: {}
+[3.530470] (-) TimerEvent: {}
+[3.631224] (-) TimerEvent: {}
+[3.732273] (-) TimerEvent: {}
+[3.833158] (-) TimerEvent: {}
+[3.933825] (-) TimerEvent: {}
+[4.023163] (picar_pro) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[4.033966] (-) TimerEvent: {}
+[4.134569] (-) TimerEvent: {}
+[4.183475] (picar_pro) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[4.184203] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.184632] (picar_pro) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[4.184942] (picar_pro) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[4.185229] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[4.234738] (-) TimerEvent: {}
+[4.335817] (-) TimerEvent: {}
+[4.347837] (picar_pro) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[4.348983] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 135 code style errors / warnings:\x1b[0m\n'}
+[4.349820] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/Car_launch.py:4:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.351015] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/Car_launch.py:11:11: W291 trailing whitespace\x1b[0m\n'}
+[4.351804] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/Car_launch.py:17:11: W291 trailing whitespace\x1b[0m\n'}
+[4.352417] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/Car_launch.py:36:2: E122 continuation line missing indentation or outdented\x1b[0m\n'}
+[4.353197] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/Car_launch.py:36:4: W292 no newline at end of file\x1b[0m\n'}
+[4.361162] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/publisher_node.py:19:34: W291 trailing whitespace\x1b[0m\n'}
+[4.361891] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/publisher_node.py:29:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[4.362322] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/publisher_node.py:30:11: W292 no newline at end of file\x1b[0m\n'}
+[4.362710] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/car_arm_communication.py:5:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.363184] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/car_arm_communication.py:9:100: E501 line too long (106 > 99 characters)\x1b[0m\n'}
+[4.363581] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:6:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.363950] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:10:100: E501 line too long (105 > 99 characters)\x1b[0m\n'}
+[4.364340] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:26:17: E265 block comment should start with '# '\x1b[0m\n"}
+[4.364761] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:29:13: E303 too many blank lines (2)\x1b[0m\n'}
+[4.365184] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:31:43: W291 trailing whitespace\x1b[0m\n'}
+[4.365555] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:36:1: W293 blank line contains whitespace\x1b[0m\n'}
+[4.366061] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:37:5: E303 too many blank lines (2)\x1b[0m\n'}
+[4.366428] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:38:1: W293 blank line contains whitespace\x1b[0m\n'}
+[4.366775] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:44:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.367131] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:51:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[4.367498] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/claw_motor_car.py:52:11: W292 no newline at end of file\x1b[0m\n'}
+[4.367858] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/servo_handler_car.py:5:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.368203] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/servo_handler_car.py:9:100: E501 line too long (102 > 99 characters)\x1b[0m\n'}
+[4.368685] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/servo_handler_car.py:37:11: W292 no newline at end of file\x1b[0m\n'}
+[4.369142] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/wheels_motor.py:6:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.369620] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/wheels_motor.py:10:100: E501 line too long (105 > 99 characters)\x1b[0m\n'}
+[4.370035] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/wheels_motor.py:26:17: E265 block comment should start with '# '\x1b[0m\n"}
+[4.370404] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/wheels_motor.py:30:38: W291 trailing whitespace\x1b[0m\n'}
+[4.370822] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/wheels_motor.py:36:5: E303 too many blank lines (2)\x1b[0m\n'}
+[4.371256] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/wheels_motor.py:47:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[4.371852] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/wheels_motor.py:48:11: W292 no newline at end of file\x1b[0m\n'}
+[4.373232] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/ServoController.py:2:1: F401 'time.sleep' imported but unused\x1b[0m\n"}
+[4.374198] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/ServoController.py:6:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.375158] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/ServoController.py:8:1: W293 blank line contains whitespace\x1b[0m\n'}
+[4.376092] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/ServoController.py:9:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.376965] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/ServoController.py:10:17: W291 trailing whitespace\x1b[0m\n'}
+[4.377970] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/ServoController.py:12:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[4.378826] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/ServoController.py:13:11: W292 no newline at end of file\x1b[0m\n'}
+[4.379804] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:5:1: E265 block comment should start with '# '\x1b[0m\n"}
+[4.380668] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:9:1: E265 block comment should start with '# '\x1b[0m\n"}
+[4.381523] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:18:1: E265 block comment should start with '# '\x1b[0m\n"}
+[4.382477] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:22:1: E265 block comment should start with '# '\x1b[0m\n"}
+[4.383353] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:27:1: E265 block comment should start with '# '\x1b[0m\n"}
+[4.384167] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:28:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.385303] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:29:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.386455] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:30:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.387357] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:31:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.388434] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:32:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.389294] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:33:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.390128] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:34:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.390930] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:35:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.391767] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:36:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.392544] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:37:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.393294] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:39:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.394298] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:40:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.395108] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:41:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.395991] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:42:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.396792] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:43:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.397576] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:43:2: E722 do not use bare 'except'\x1b[0m\n"}
+[4.398441] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:44:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.399317] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:46:1: E265 block comment should start with '# '\x1b[0m\n"}
+[4.400142] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:47:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.401097] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:48:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.402281] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:49:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.403241] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:50:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.404140] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:51:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.405183] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:53:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.406014] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:54:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.406864] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:56:1: E265 block comment should start with '# '\x1b[0m\n"}
+[4.407584] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:57:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.408376] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:58:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.409067] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:59:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.409834] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:60:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.410658] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:61:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.412003] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:63:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.412852] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:64:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.413773] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:66:1: E265 block comment should start with '# '\x1b[0m\n"}
+[4.414683] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:67:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.415498] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:68:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.416363] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:69:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.417219] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:70:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.417917] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:71:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.418504] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:72:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.419004] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:73:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.419562] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:74:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.420075] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:75:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.420598] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:76:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.421111] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:77:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.421794] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:78:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.422428] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:79:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.422955] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:81:1: E265 block comment should start with '# '\x1b[0m\n"}
+[4.423392] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:82:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.424002] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:83:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.424910] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:84:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.425750] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:86:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[4.426562] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:87:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.427435] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:88:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.428190] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:88:21: E701 multiple statements on one line (colon)\x1b[0m\n'}
+[4.428917] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:89:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.429936] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:89:22: E701 multiple statements on one line (colon)\x1b[0m\n'}
+[4.430815] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:91:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.432087] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:92:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.433011] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:94:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.434023] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:95:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.434967] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:95:21: E701 multiple statements on one line (colon)\x1b[0m\n'}
+[4.435844] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:96:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.436633] (-) TimerEvent: {}
+[4.437415] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:96:22: E701 multiple statements on one line (colon)\x1b[0m\n'}
+[4.438559] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:97:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.439479] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:97:1: W293 blank line contains whitespace\x1b[0m\n'}
+[4.440349] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:98:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.441310] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:99:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.442192] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:101:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.442972] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:102:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.444038] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:104:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.444944] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:105:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.446109] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:106:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.447231] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:108:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[4.448285] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:109:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.449070] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:110:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.449721] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:111:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.450450] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:111:1: W293 blank line contains whitespace\x1b[0m\n'}
+[4.451275] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:112:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.451930] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:112:3: E265 block comment should start with '# '\x1b[0m\n"}
+[4.452703] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:113:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.453368] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:113:3: E265 block comment should start with '# '\x1b[0m\n"}
+[4.454396] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:114:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.455072] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:114:3: E265 block comment should start with '# '\x1b[0m\n"}
+[4.455822] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:115:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.456807] (picar_pro) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:115:3: E265 block comment should start with '# '\x1b[0m\n"}
+[4.457867] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:116:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.458869] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:116:1: W293 blank line contains whitespace\x1b[0m\n'}
+[4.459665] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:117:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.460419] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:118:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.461203] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:119:1: W191 indentation contains tabs\x1b[0m\n'}
+[4.462144] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./picar_pro/move/WheelController.py:119:18: W292 no newline at end of file\x1b[0m\n'}
+[4.463092] (picar_pro) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[4.463985] (picar_pro) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[4.464851] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.465759] (picar_pro) StdoutLine: {'line': b'./launch/Car_launch.py:4:1: E302 expected 2 blank lines, found 1\n'}
+[4.466612] (picar_pro) StdoutLine: {'line': b'def generate_launch_description():\n'}
+[4.467496] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.468409] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.469288] (picar_pro) StdoutLine: {'line': b'./launch/Car_launch.py:11:11: W291 trailing whitespace\n'}
+[4.470197] (picar_pro) StdoutLine: {'line': b'        ),  \n'}
+[4.471093] (picar_pro) StdoutLine: {'line': b'          ^\n'}
+[4.471906] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.472725] (picar_pro) StdoutLine: {'line': b'./launch/Car_launch.py:17:11: W291 trailing whitespace\n'}
+[4.473636] (picar_pro) StdoutLine: {'line': b'        ),  \n'}
+[4.474415] (picar_pro) StdoutLine: {'line': b'          ^\n'}
+[4.475442] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.476519] (picar_pro) StdoutLine: {'line': b'./launch/Car_launch.py:36:2: E122 continuation line missing indentation or outdented\n'}
+[4.477998] (picar_pro) StdoutLine: {'line': b' ]) ^\n'}
+[4.479071] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.479862] (picar_pro) StdoutLine: {'line': b'./launch/Car_launch.py:36:4: W292 no newline at end of file\n'}
+[4.480560] (picar_pro) StdoutLine: {'line': b' ])   ^\n'}
+[4.481220] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.482015] (picar_pro) StdoutLine: {'line': b'./picar_pro/publisher_node.py:19:34: W291 trailing whitespace\n'}
+[4.482720] (picar_pro) StdoutLine: {'line': b'            self.published = True \n'}
+[4.483449] (picar_pro) StdoutLine: {'line': b'                                 ^\n'}
+[4.484102] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.485069] (picar_pro) StdoutLine: {'line': b'./picar_pro/publisher_node.py:29:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[4.486012] (picar_pro) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[4.486820] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.487468] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.488205] (picar_pro) StdoutLine: {'line': b'./picar_pro/publisher_node.py:30:11: W292 no newline at end of file\n'}
+[4.488937] (picar_pro) StdoutLine: {'line': b'    main()          ^\n'}
+[4.489686] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.490446] (picar_pro) StdoutLine: {'line': b'./picar_pro/car_arm_communication.py:5:1: E302 expected 2 blank lines, found 1\n'}
+[4.491199] (picar_pro) StdoutLine: {'line': b'class CarArmCommunication(Node):\n'}
+[4.492069] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.492806] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.493443] (picar_pro) StdoutLine: {'line': b'./picar_pro/car_arm_communication.py:9:100: E501 line too long (106 > 99 characters)\n'}
+[4.494049] (picar_pro) StdoutLine: {'line': b"        self.subscription = self.create_subscription(String, '/car_msg_topic', self.listener_callback, 10)\n"}
+[4.494516] (picar_pro) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[4.495003] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.495521] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[4.496013] (picar_pro) StdoutLine: {'line': b'class ClawMotorCar(Node):\n'}
+[4.496501] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.496962] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.497437] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:10:100: E501 line too long (105 > 99 characters)\n'}
+[4.498117] (picar_pro) StdoutLine: {'line': b"        self.subscription = self.create_subscription(String, '/wheels_topic', self.listener_callback, 10)\n"}
+[4.498747] (picar_pro) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[4.499364] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.499757] (picar_pro) StdoutLine: {'line': b"./picar_pro/claw_motor_car.py:26:17: E265 block comment should start with '# '\n"}
+[4.500209] (picar_pro) StdoutLine: {'line': b'                #self.moving_servos(50, 30, 90, 90)\n'}
+[4.500706] (picar_pro) StdoutLine: {'line': b'                ^\n'}
+[4.501182] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.501822] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:29:13: E303 too many blank lines (2)\n'}
+[4.502532] (picar_pro) StdoutLine: {'line': b"            elif self.mess.data == 'rettangolo':\n"}
+[4.503031] (picar_pro) StdoutLine: {'line': b'            ^\n'}
+[4.503439] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.503818] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:31:43: W291 trailing whitespace\n'}
+[4.504176] (picar_pro) StdoutLine: {'line': b'                self.starting_positions(0) \n'}
+[4.504539] (picar_pro) StdoutLine: {'line': b'                                          ^\n'}
+[4.504992] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.505371] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:36:1: W293 blank line contains whitespace\n'}
+[4.505813] (picar_pro) StdoutLine: {'line': b'   \n'}
+[4.506225] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.506557] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.506905] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:37:5: E303 too many blank lines (2)\n'}
+[4.507280] (picar_pro) StdoutLine: {'line': b'    def moving_servos(self, angle1, angle2, angle3, angle4):\n'}
+[4.507659] (picar_pro) StdoutLine: {'line': b'    ^\n'}
+[4.508122] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.508496] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:38:1: W293 blank line contains whitespace\n'}
+[4.508862] (picar_pro) StdoutLine: {'line': b'        \n'}
+[4.509227] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.509640] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.510050] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:44:1: E302 expected 2 blank lines, found 1\n'}
+[4.510430] (picar_pro) StdoutLine: {'line': b'def main(args=None):\n'}
+[4.510834] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.511230] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.511615] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:51:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[4.512060] (picar_pro) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[4.512556] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.513086] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.513474] (picar_pro) StdoutLine: {'line': b'./picar_pro/claw_motor_car.py:52:11: W292 no newline at end of file\n'}
+[4.514094] (picar_pro) StdoutLine: {'line': b'    main()          ^\n'}
+[4.514578] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.514986] (picar_pro) StdoutLine: {'line': b'./picar_pro/servo_handler_car.py:5:1: E302 expected 2 blank lines, found 1\n'}
+[4.515432] (picar_pro) StdoutLine: {'line': b'class ServoHandlerCar(Node):\n'}
+[4.516003] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.516913] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.517714] (picar_pro) StdoutLine: {'line': b'./picar_pro/servo_handler_car.py:9:100: E501 line too long (102 > 99 characters)\n'}
+[4.518424] (picar_pro) StdoutLine: {'line': b"        self.subscription = self.create_subscription(String, '/obj_topic', self.listener_callback, 10)\n"}
+[4.519121] (picar_pro) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[4.519784] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.520471] (picar_pro) StdoutLine: {'line': b'./picar_pro/servo_handler_car.py:37:11: W292 no newline at end of file\n'}
+[4.521175] (picar_pro) StdoutLine: {'line': b'    main()          ^\n'}
+[4.521942] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.523014] (picar_pro) StdoutLine: {'line': b'./picar_pro/wheels_motor.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[4.524338] (picar_pro) StdoutLine: {'line': b'class WheelsMotor(Node):\n'}
+[4.525296] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.526287] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.527315] (picar_pro) StdoutLine: {'line': b'./picar_pro/wheels_motor.py:10:100: E501 line too long (105 > 99 characters)\n'}
+[4.528170] (picar_pro) StdoutLine: {'line': b"        self.subscription = self.create_subscription(String, '/wheels_topic', self.listener_callback, 10)\n"}
+[4.529061] (picar_pro) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[4.530172] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.531231] (picar_pro) StdoutLine: {'line': b"./picar_pro/wheels_motor.py:26:17: E265 block comment should start with '# '\n"}
+[4.532350] (picar_pro) StdoutLine: {'line': b'                #self.moving_servos(50, 30, 90, 90)\n'}
+[4.533350] (picar_pro) StdoutLine: {'line': b'                ^\n'}
+[4.534346] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.535346] (picar_pro) StdoutLine: {'line': b'./picar_pro/wheels_motor.py:30:38: W291 trailing whitespace\n'}
+[4.536298] (picar_pro) StdoutLine: {'line': b'                self.moving_servos(0) \n'}
+[4.537114] (-) TimerEvent: {}
+[4.537912] (picar_pro) StdoutLine: {'line': b'                                     ^\n'}
+[4.539227] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.540653] (picar_pro) StdoutLine: {'line': b'./picar_pro/wheels_motor.py:36:5: E303 too many blank lines (2)\n'}
+[4.541864] (picar_pro) StdoutLine: {'line': b'    def moving_servos(self, angle):\n'}
+[4.542801] (picar_pro) StdoutLine: {'line': b'    ^\n'}
+[4.543553] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.544085] (picar_pro) StdoutLine: {'line': b'./picar_pro/wheels_motor.py:47:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[4.544631] (picar_pro) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[4.545150] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.545728] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.546299] (picar_pro) StdoutLine: {'line': b'./picar_pro/wheels_motor.py:48:11: W292 no newline at end of file\n'}
+[4.546830] (picar_pro) StdoutLine: {'line': b'    main()          ^\n'}
+[4.547321] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.547883] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/ServoController.py:2:1: F401 'time.sleep' imported but unused\n"}
+[4.548732] (picar_pro) StdoutLine: {'line': b'from time import sleep\n'}
+[4.549676] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.550592] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.551238] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/ServoController.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[4.551945] (picar_pro) StdoutLine: {'line': b'def move(servoPin, angle):\n'}
+[4.552535] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.553138] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.553775] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/ServoController.py:8:1: W293 blank line contains whitespace\n'}
+[4.554452] (picar_pro) StdoutLine: {'line': b'    \n'}
+[4.555145] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.555719] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.556345] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/ServoController.py:9:1: E302 expected 2 blank lines, found 1\n'}
+[4.557376] (picar_pro) StdoutLine: {'line': b'def main():\n'}
+[4.558414] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.559073] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.559771] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/ServoController.py:10:17: W291 trailing whitespace\n'}
+[4.560514] (picar_pro) StdoutLine: {'line': b'    move(15, 60)   \n'}
+[4.561221] (picar_pro) StdoutLine: {'line': b'                ^\n'}
+[4.561903] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.562622] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/ServoController.py:12:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[4.563504] (picar_pro) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[4.564269] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.564949] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.565746] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/ServoController.py:13:11: W292 no newline at end of file\n'}
+[4.566623] (picar_pro) StdoutLine: {'line': b'    main()          ^\n'}
+[4.567410] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.568237] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:5:1: E265 block comment should start with '# '\n"}
+[4.569485] (picar_pro) StdoutLine: {'line': b'#servo controller\n'}
+[4.570449] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.571050] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.571599] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:9:1: E265 block comment should start with '# '\n"}
+[4.572179] (picar_pro) StdoutLine: {'line': b'#board pins\n'}
+[4.572736] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.573288] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.573884] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:18:1: E265 block comment should start with '# '\n"}
+[4.574419] (picar_pro) StdoutLine: {'line': b'#motors directions\n'}
+[4.575029] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.576227] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.576953] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:22:1: E265 block comment should start with '# '\n"}
+[4.577558] (picar_pro) StdoutLine: {'line': b'#wheelServo positions\n'}
+[4.578284] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.578992] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.579705] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:27:1: E265 block comment should start with '# '\n"}
+[4.580395] (picar_pro) StdoutLine: {'line': b'#setup motors\n'}
+[4.581101] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.582283] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.583309] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:28:1: E302 expected 2 blank lines, found 1\n'}
+[4.584459] (picar_pro) StdoutLine: {'line': b'def setup():\n'}
+[4.585293] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.586153] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.587228] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:29:1: W191 indentation contains tabs\n'}
+[4.588315] (picar_pro) StdoutLine: {'line': b'\tglobal pwmR, pwmL\n'}
+[4.589331] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.590290] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.591262] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:30:1: W191 indentation contains tabs\n'}
+[4.592272] (picar_pro) StdoutLine: {'line': b'\tGPIO.setwarnings(False)\n'}
+[4.593186] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.594089] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.594922] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:31:1: W191 indentation contains tabs\n'}
+[4.596039] (picar_pro) StdoutLine: {'line': b'\tGPIO.setmode(GPIO.BCM)\n'}
+[4.597562] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.598604] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.599233] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:32:1: W191 indentation contains tabs\n'}
+[4.599775] (picar_pro) StdoutLine: {'line': b'\tGPIO.setup(RightMotorPin, GPIO.OUT)\n'}
+[4.600304] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.600834] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.601392] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:33:1: W191 indentation contains tabs\n'}
+[4.602019] (picar_pro) StdoutLine: {'line': b'\tGPIO.setup(LeftMotorPin, GPIO.OUT)\n'}
+[4.602555] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.603052] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.603597] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:34:1: W191 indentation contains tabs\n'}
+[4.604425] (picar_pro) StdoutLine: {'line': b'\tGPIO.setup(RightWheelPin1, GPIO.OUT)\n'}
+[4.605201] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.605884] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.606420] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:35:1: W191 indentation contains tabs\n'}
+[4.606965] (picar_pro) StdoutLine: {'line': b'\tGPIO.setup(RightWheelPin2, GPIO.OUT)\n'}
+[4.607546] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.608082] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.608627] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:36:1: W191 indentation contains tabs\n'}
+[4.609129] (picar_pro) StdoutLine: {'line': b'\tGPIO.setup(LeftWheelPin1, GPIO.OUT)\n'}
+[4.609875] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.610728] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.611435] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:37:1: W191 indentation contains tabs\n'}
+[4.611950] (picar_pro) StdoutLine: {'line': b'\tGPIO.setup(LeftWheelPin2, GPIO.OUT)\n'}
+[4.612395] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.612865] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.613368] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:39:1: W191 indentation contains tabs\n'}
+[4.613902] (picar_pro) StdoutLine: {'line': b'\ttry:\n'}
+[4.614401] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.614869] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.615449] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:40:1: W191 indentation contains tabs\n'}
+[4.616104] (picar_pro) StdoutLine: {'line': b'\t\tpwm.set_pwm_freq(pwmFrequency)\n'}
+[4.616718] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.617242] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.617735] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:41:1: W191 indentation contains tabs\n'}
+[4.618209] (picar_pro) StdoutLine: {'line': b'\t\tpwmR = GPIO.PWM(RightMotorPin, 1000)\n'}
+[4.618627] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.619032] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.619445] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:42:1: W191 indentation contains tabs\n'}
+[4.619880] (picar_pro) StdoutLine: {'line': b'\t\tpwmL = GPIO.PWM(LeftMotorPin, 1000)\n'}
+[4.620323] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.620745] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.621264] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:43:1: W191 indentation contains tabs\n'}
+[4.621855] (picar_pro) StdoutLine: {'line': b'\texcept:\n'}
+[4.622363] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.622797] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.623188] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:43:2: E722 do not use bare 'except'\n"}
+[4.623616] (picar_pro) StdoutLine: {'line': b'\texcept:\n'}
+[4.624077] (picar_pro) StdoutLine: {'line': b'\t^\n'}
+[4.624464] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.624850] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:44:1: W191 indentation contains tabs\n'}
+[4.625255] (picar_pro) StdoutLine: {'line': b'\t\tpass\n'}
+[4.625711] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.626169] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.626564] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:46:1: E265 block comment should start with '# '\n"}
+[4.626957] (picar_pro) StdoutLine: {'line': b'#move motors forward\n'}
+[4.627344] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.627748] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.628133] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:47:1: E302 expected 2 blank lines, found 1\n'}
+[4.628512] (picar_pro) StdoutLine: {'line': b'def motorForward(speed):\n'}
+[4.628912] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.629319] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.629797] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:48:1: W191 indentation contains tabs\n'}
+[4.630253] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(LeftWheelPin1, GPIO.LOW)\n'}
+[4.630682] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.631078] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.631468] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:49:1: W191 indentation contains tabs\n'}
+[4.631861] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(LeftWheelPin2, GPIO.HIGH)\n'}
+[4.632262] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.632682] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.633109] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:50:1: W191 indentation contains tabs\n'}
+[4.633543] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(RightWheelPin1, GPIO.LOW)\n'}
+[4.634025] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.634403] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.634809] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:51:1: W191 indentation contains tabs\n'}
+[4.635236] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(RightWheelPin2, GPIO.HIGH)\n'}
+[4.635658] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.636083] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.636532] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:53:1: W191 indentation contains tabs\n'}
+[4.636936] (picar_pro) StdoutLine: {'line': b'\tpwmL.start(speed)\n'}
+[4.637334] (-) TimerEvent: {}
+[4.637873] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.638549] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.639048] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:54:1: W191 indentation contains tabs\n'}
+[4.639561] (picar_pro) StdoutLine: {'line': b'\tpwmR.start(speed)\n'}
+[4.639988] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.640399] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.640820] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:56:1: E265 block comment should start with '# '\n"}
+[4.641221] (picar_pro) StdoutLine: {'line': b'#move motors backward\n'}
+[4.641674] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.642123] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.642529] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:57:1: E302 expected 2 blank lines, found 1\n'}
+[4.642934] (picar_pro) StdoutLine: {'line': b'def motorBackward(speed):\n'}
+[4.643402] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.643821] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.644199] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:58:1: W191 indentation contains tabs\n'}
+[4.644581] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(LeftWheelPin1, GPIO.HIGH)\n'}
+[4.644960] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.645344] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.645909] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:59:1: W191 indentation contains tabs\n'}
+[4.646376] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(LeftWheelPin2, GPIO.LOW)\n'}
+[4.646821] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.647205] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.647586] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:60:1: W191 indentation contains tabs\n'}
+[4.647974] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(RightWheelPin1, GPIO.HIGH)\n'}
+[4.648349] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.648741] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.649125] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:61:1: W191 indentation contains tabs\n'}
+[4.649522] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(RightWheelPin2, GPIO.LOW)\n'}
+[4.649981] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.650382] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.650769] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:63:1: W191 indentation contains tabs\n'}
+[4.651192] (picar_pro) StdoutLine: {'line': b'\tpwmL.start(speed)\n'}
+[4.651602] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.652022] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.652439] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:64:1: W191 indentation contains tabs\n'}
+[4.652892] (picar_pro) StdoutLine: {'line': b'\tpwmR.start(speed)\n'}
+[4.653281] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.653726] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.654165] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:66:1: E265 block comment should start with '# '\n"}
+[4.654603] (picar_pro) StdoutLine: {'line': b'#stop motors\n'}
+[4.655020] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.655409] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.655756] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:67:1: E302 expected 2 blank lines, found 1\n'}
+[4.656121] (picar_pro) StdoutLine: {'line': b'def motorStop():\n'}
+[4.656528] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.656983] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.657412] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:68:1: W191 indentation contains tabs\n'}
+[4.657993] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(RightWheelPin1, GPIO.LOW)\n'}
+[4.658432] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.658827] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.659201] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:69:1: W191 indentation contains tabs\n'}
+[4.659588] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(RightWheelPin2, GPIO.LOW)\n'}
+[4.659957] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.660336] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.660710] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:70:1: W191 indentation contains tabs\n'}
+[4.661125] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(LeftWheelPin1, GPIO.LOW)\n'}
+[4.661669] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.662113] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.662504] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:71:1: W191 indentation contains tabs\n'}
+[4.662915] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(LeftWheelPin2, GPIO.LOW)\n'}
+[4.663307] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.663689] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.664051] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:72:1: W191 indentation contains tabs\n'}
+[4.664430] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(RightMotorPin, GPIO.LOW)\n'}
+[4.664818] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.665187] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.665523] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:73:1: W191 indentation contains tabs\n'}
+[4.666019] (picar_pro) StdoutLine: {'line': b'\tGPIO.output(LeftMotorPin, GPIO.LOW)\n'}
+[4.666428] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.666837] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.667231] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:74:1: W191 indentation contains tabs\n'}
+[4.667626] (picar_pro) StdoutLine: {'line': b'\tpwm.set_pwm(0, 0, 0)\n'}
+[4.667972] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.668333] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.668739] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:75:1: W191 indentation contains tabs\n'}
+[4.669115] (picar_pro) StdoutLine: {'line': b'\tpwm.set_pwm(1, 0, 0)\n'}
+[4.669914] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.670643] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.671220] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:76:1: W191 indentation contains tabs\n'}
+[4.671744] (picar_pro) StdoutLine: {'line': b'\tpwm.set_pwm(2, 0, 0)\n'}
+[4.672226] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.672726] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.673753] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:77:1: W191 indentation contains tabs\n'}
+[4.674797] (picar_pro) StdoutLine: {'line': b'\tpwm.set_pwm(3, 0, 0)\n'}
+[4.675506] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.675957] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.676431] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:78:1: W191 indentation contains tabs\n'}
+[4.676865] (picar_pro) StdoutLine: {'line': b'\tpwm.set_pwm(4, 0, 0)\n'}
+[4.677571] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.678561] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.678922] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:79:1: W191 indentation contains tabs\n'}
+[4.679258] (picar_pro) StdoutLine: {'line': b'\tsleep(0.5)\n'}
+[4.679561] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.679862] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.680183] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:81:1: E265 block comment should start with '# '\n"}
+[4.680524] (picar_pro) StdoutLine: {'line': b'#release resource\n'}
+[4.680930] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.681271] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.681704] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:82:1: E302 expected 2 blank lines, found 1\n'}
+[4.682128] (picar_pro) StdoutLine: {'line': b'def releaseMotors():\n'}
+[4.682495] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.682830] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.683187] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:83:1: W191 indentation contains tabs\n'}
+[4.683525] (picar_pro) StdoutLine: {'line': b'\tmotorStop()\n'}
+[4.683902] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.684334] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.684690] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:84:1: W191 indentation contains tabs\n'}
+[4.685050] (picar_pro) StdoutLine: {'line': b'\tGPIO.cleanup()\n'}
+[4.685527] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.685924] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.686225] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:86:1: E302 expected 2 blank lines, found 1\n'}
+[4.686655] (picar_pro) StdoutLine: {'line': b'def move(speed, direction, turn, duration):\n'}
+[4.687037] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.687459] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.688325] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:87:1: W191 indentation contains tabs\n'}
+[4.689298] (picar_pro) StdoutLine: {'line': b"\tif direction == 'forward':\n"}
+[4.690792] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.691976] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.692367] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:88:1: W191 indentation contains tabs\n'}
+[4.692628] (picar_pro) StdoutLine: {'line': b"\t\tif turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)\n"}
+[4.692880] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.693126] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.693417] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:88:21: E701 multiple statements on one line (colon)\n'}
+[4.693743] (picar_pro) StdoutLine: {'line': b"\t\tif turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)\n"}
+[4.694039] (picar_pro) StdoutLine: {'line': b'\t\t                  ^\n'}
+[4.694403] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.694682] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:89:1: W191 indentation contains tabs\n'}
+[4.694958] (picar_pro) StdoutLine: {'line': b"\t\telif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)\n"}
+[4.695234] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.695506] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.695777] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:89:22: E701 multiple statements on one line (colon)\n'}
+[4.696052] (picar_pro) StdoutLine: {'line': b"\t\telif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)\n"}
+[4.696325] (picar_pro) StdoutLine: {'line': b'\t\t                   ^\n'}
+[4.696599] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.696870] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:91:1: W191 indentation contains tabs\n'}
+[4.697144] (picar_pro) StdoutLine: {'line': b'\t\tsleep(0.5)\n'}
+[4.697428] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.697760] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.698049] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:92:1: W191 indentation contains tabs\n'}
+[4.698325] (picar_pro) StdoutLine: {'line': b'\t\tmotorForward(speed)\n'}
+[4.698599] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.698873] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.699146] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:94:1: W191 indentation contains tabs\n'}
+[4.699422] (picar_pro) StdoutLine: {'line': b"\telif direction == 'backward':\n"}
+[4.699695] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.699968] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.700240] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:95:1: W191 indentation contains tabs\n'}
+[4.700513] (picar_pro) StdoutLine: {'line': b"\t\tif turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)\n"}
+[4.700786] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.701060] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.701331] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:95:21: E701 multiple statements on one line (colon)\n'}
+[4.701625] (picar_pro) StdoutLine: {'line': b"\t\tif turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)\n"}
+[4.701940] (picar_pro) StdoutLine: {'line': b'\t\t                  ^\n'}
+[4.702221] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.702497] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:96:1: W191 indentation contains tabs\n'}
+[4.702772] (picar_pro) StdoutLine: {'line': b"\t\telif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)\n"}
+[4.703046] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.703318] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.703592] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:96:22: E701 multiple statements on one line (colon)\n'}
+[4.703868] (picar_pro) StdoutLine: {'line': b"\t\telif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)\n"}
+[4.704195] (picar_pro) StdoutLine: {'line': b'\t\t                   ^\n'}
+[4.704471] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.704746] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:97:1: W191 indentation contains tabs\n'}
+[4.705019] (picar_pro) StdoutLine: {'line': b'\t\t\n'}
+[4.705290] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.705562] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.705998] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:97:1: W293 blank line contains whitespace\n'}
+[4.706288] (picar_pro) StdoutLine: {'line': b'\t\t\n'}
+[4.706565] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.706842] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.707117] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:98:1: W191 indentation contains tabs\n'}
+[4.707392] (picar_pro) StdoutLine: {'line': b'\t\tsleep(0.5)\n'}
+[4.707667] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.707965] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.708284] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:99:1: W191 indentation contains tabs\n'}
+[4.708535] (picar_pro) StdoutLine: {'line': b'\t\tmotorBackward(speed)\n'}
+[4.708779] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.709024] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.709304] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:101:1: W191 indentation contains tabs\n'}
+[4.709555] (picar_pro) StdoutLine: {'line': b'\telse:\n'}
+[4.709836] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.710086] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.710331] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:102:1: W191 indentation contains tabs\n'}
+[4.710577] (picar_pro) StdoutLine: {'line': b'\t\tmotorStop()\n'}
+[4.710820] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.711064] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.711306] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:104:1: W191 indentation contains tabs\n'}
+[4.711549] (picar_pro) StdoutLine: {'line': b'\tsleep(duration)\n'}
+[4.711792] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.712036] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.712280] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:105:1: W191 indentation contains tabs\n'}
+[4.712522] (picar_pro) StdoutLine: {'line': b'\tpwm.set_pwm(wheelServoPin, 0, straight)\n'}
+[4.712766] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.713007] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.713249] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:106:1: W191 indentation contains tabs\n'}
+[4.713492] (picar_pro) StdoutLine: {'line': b'\tmotorStop()\n'}
+[4.713812] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.714065] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.714308] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:108:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[4.714555] (picar_pro) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[4.714799] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.715043] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.715286] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:109:1: W191 indentation contains tabs\n'}
+[4.715528] (picar_pro) StdoutLine: {'line': b'\ttry:\n'}
+[4.715770] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.716013] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.716255] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:110:1: W191 indentation contains tabs\n'}
+[4.716498] (picar_pro) StdoutLine: {'line': b'\t\tsetup()\n'}
+[4.716741] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.716982] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.717221] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:111:1: W191 indentation contains tabs\n'}
+[4.717462] (picar_pro) StdoutLine: {'line': b'\t\t\n'}
+[4.717737] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.717990] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.718234] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:111:1: W293 blank line contains whitespace\n'}
+[4.718515] (picar_pro) StdoutLine: {'line': b'\t\t\n'}
+[4.718757] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.719000] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.719242] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:112:1: W191 indentation contains tabs\n'}
+[4.719484] (picar_pro) StdoutLine: {'line': b"\t\t#move(speed, 'forward'/'backward', 'left'/'right'/'', duration)\n"}
+[4.719728] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.719968] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.720211] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:112:3: E265 block comment should start with '# '\n"}
+[4.720456] (picar_pro) StdoutLine: {'line': b"\t\t#move(speed, 'forward'/'backward', 'left'/'right'/'', duration)\n"}
+[4.720698] (picar_pro) StdoutLine: {'line': b'\t\t^\n'}
+[4.720939] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.721179] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:113:1: W191 indentation contains tabs\n'}
+[4.721423] (picar_pro) StdoutLine: {'line': b"\t\t#move(100, 'forward', 'right', 0.5)\n"}
+[4.721694] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.721950] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.722192] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:113:3: E265 block comment should start with '# '\n"}
+[4.722436] (picar_pro) StdoutLine: {'line': b"\t\t#move(100, 'forward', 'right', 0.5)\n"}
+[4.722678] (picar_pro) StdoutLine: {'line': b'\t\t^\n'}
+[4.722920] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.723161] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:114:1: W191 indentation contains tabs\n'}
+[4.723404] (picar_pro) StdoutLine: {'line': b"\t\t#move(100, 'forward', 'left', 0.5)\n"}
+[4.723647] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.723887] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.724126] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:114:3: E265 block comment should start with '# '\n"}
+[4.724370] (picar_pro) StdoutLine: {'line': b"\t\t#move(100, 'forward', 'left', 0.5)\n"}
+[4.724664] (picar_pro) StdoutLine: {'line': b'\t\t^\n'}
+[4.724908] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.725151] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:115:1: W191 indentation contains tabs\n'}
+[4.725393] (picar_pro) StdoutLine: {'line': b"\t\t#move(100, 'backward', '', 1)\n"}
+[4.725656] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.725913] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.726156] (picar_pro) StdoutLine: {'line': b"./picar_pro/move/WheelController.py:115:3: E265 block comment should start with '# '\n"}
+[4.726401] (picar_pro) StdoutLine: {'line': b"\t\t#move(100, 'backward', '', 1)\n"}
+[4.726644] (picar_pro) StdoutLine: {'line': b'\t\t^\n'}
+[4.726885] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.727128] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:116:1: W191 indentation contains tabs\n'}
+[4.727369] (picar_pro) StdoutLine: {'line': b'\t\t\n'}
+[4.727610] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.727849] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.728091] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:116:1: W293 blank line contains whitespace\n'}
+[4.728334] (picar_pro) StdoutLine: {'line': b'\t\t\n'}
+[4.728575] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.728815] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.729057] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:117:1: W191 indentation contains tabs\n'}
+[4.729300] (picar_pro) StdoutLine: {'line': b'\t\treleaseMotors()\n'}
+[4.729541] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.729873] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.730123] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:118:1: W191 indentation contains tabs\n'}
+[4.730368] (picar_pro) StdoutLine: {'line': b'\texcept KeyboardInterrupt:\n'}
+[4.730610] (picar_pro) StdoutLine: {'line': b'^\n'}
+[4.730852] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.731092] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:119:1: W191 indentation contains tabs\n'}
+[4.731371] (picar_pro) StdoutLine: {'line': b'\t\treleaseMotors()^\n'}
+[4.731613] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.731855] (picar_pro) StdoutLine: {'line': b'./picar_pro/move/WheelController.py:119:18: W292 no newline at end of file\n'}
+[4.732098] (picar_pro) StdoutLine: {'line': b'\t\treleaseMotors()\t\t               ^\n'}
+[4.732338] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.732580] (picar_pro) StdoutLine: {'line': b'1     E122 continuation line missing indentation or outdented\n'}
+[4.732820] (picar_pro) StdoutLine: {'line': b"15    E265 block comment should start with '# '\n"}
+[4.733062] (picar_pro) StdoutLine: {'line': b'14    E302 expected 2 blank lines, found 1\n'}
+[4.733303] (picar_pro) StdoutLine: {'line': b'3     E303 too many blank lines (2)\n'}
+[4.733543] (picar_pro) StdoutLine: {'line': b'5     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[4.733812] (picar_pro) StdoutLine: {'line': b'4     E501 line too long (106 > 99 characters)\n'}
+[4.734060] (picar_pro) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[4.734367] (picar_pro) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[4.734616] (picar_pro) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[4.734860] (picar_pro) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[4.735102] (picar_pro) StderrLine: {'line': b'\n'}
+[4.735344] (picar_pro) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[4.735608] (picar_pro) StdoutLine: {'line': b'4     E701 multiple statements on one line (colon)\n'}
+[4.735858] (picar_pro) StdoutLine: {'line': b"1     E722 do not use bare 'except'\n"}
+[4.736101] (picar_pro) StdoutLine: {'line': b"1     F401 'time.sleep' imported but unused\n"}
+[4.736345] (picar_pro) StdoutLine: {'line': b'68    W191 indentation contains tabs\n'}
+[4.736586] (picar_pro) StdoutLine: {'line': b'6     W291 trailing whitespace\n'}
+[4.736826] (picar_pro) StdoutLine: {'line': b'7     W292 no newline at end of file\n'}
+[4.737067] (picar_pro) StdoutLine: {'line': b'6     W293 blank line contains whitespace\n'}
+[4.737310] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.737538] (-) TimerEvent: {}
+[4.737865] (picar_pro) StdoutLine: {'line': b'13 files checked\n'}
+[4.738226] (picar_pro) StdoutLine: {'line': b'135 errors\n'}
+[4.738500] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.738747] (picar_pro) StdoutLine: {'line': b"'E'-type errors: 47\n"}
+[4.738993] (picar_pro) StdoutLine: {'line': b"'F'-type errors: 1\n"}
+[4.739237] (picar_pro) StdoutLine: {'line': b"'W'-type errors: 87\n"}
+[4.739480] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.739722] (picar_pro) StdoutLine: {'line': b'Checked files:\n'}
+[4.739964] (picar_pro) StdoutLine: {'line': b'\n'}
+[4.740204] (picar_pro) StdoutLine: {'line': b'* ./setup.py\n'}
+[4.740445] (picar_pro) StdoutLine: {'line': b'* ./launch/Car_launch.py\n'}
+[4.740686] (picar_pro) StdoutLine: {'line': b'* ./picar_pro/publisher_node.py\n'}
+[4.740928] (picar_pro) StdoutLine: {'line': b'* ./picar_pro/car_arm_communication.py\n'}
+[4.741171] (picar_pro) StdoutLine: {'line': b'* ./picar_pro/claw_motor_car.py\n'}
+[4.741413] (picar_pro) StdoutLine: {'line': b'* ./picar_pro/servo_handler_car.py\n'}
+[4.741728] (picar_pro) StdoutLine: {'line': b'* ./picar_pro/__init__.py\n'}
+[4.741986] (picar_pro) StdoutLine: {'line': b'* ./picar_pro/wheels_motor.py\n'}
+[4.742230] (picar_pro) StdoutLine: {'line': b'* ./picar_pro/move/ServoController.py\n'}
+[4.742468] (picar_pro) StdoutLine: {'line': b'* ./picar_pro/move/WheelController.py\n'}
+[4.742710] (picar_pro) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[4.742950] (picar_pro) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[4.743189] (picar_pro) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[4.743430] (picar_pro) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[4.743718] (picar_pro) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[4.743965] (picar_pro) StdoutLine: {'line': b'----- generated xml file: /home/csd/CSD-Project/build/picar_pro/pytest.xml -----\n'}
+[4.744209] (picar_pro) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[4.744451] (picar_pro) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 135 code styl...\n'}
+[4.744694] (picar_pro) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 1.47s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[4.744945] (picar_pro) CommandEnded: {'returncode': 1}
+[4.745870] (picar_pro) TestFailure: {'identifier': 'picar_pro'}
+[4.745972] (picar_pro) JobEnded: {'identifier': 'picar_pro', 'rc': 0}
+[4.747258] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+100/forward/no/1
+80/forward/right/0.5
+80/backward/left/0.5
+100/backward/no/1

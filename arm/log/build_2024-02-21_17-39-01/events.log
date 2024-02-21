@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001468] (smart_arm) JobQueued: {'identifier': 'smart_arm', 'dependencies': OrderedDict()}
+[0.001594] (smart_arm) JobStarted: {'identifier': 'smart_arm'}
+[0.099032] (-) TimerEvent: {}
+[0.199867] (-) TimerEvent: {}
+[0.301295] (-) TimerEvent: {}
+[0.402077] (-) TimerEvent: {}
+[0.502701] (-) TimerEvent: {}
+[0.603309] (-) TimerEvent: {}
+[0.703941] (-) TimerEvent: {}
+[0.804530] (-) TimerEvent: {}
+[0.905122] (-) TimerEvent: {}
+[1.005731] (-) TimerEvent: {}
+[1.106317] (-) TimerEvent: {}
+[1.206894] (-) TimerEvent: {}
+[1.307594] (-) TimerEvent: {}
+[1.408366] (-) TimerEvent: {}
+[1.509639] (-) TimerEvent: {}
+[1.610366] (-) TimerEvent: {}
+[1.711021] (-) TimerEvent: {}
+[1.811711] (-) TimerEvent: {}
+[1.912362] (-) TimerEvent: {}
+[2.012954] (-) TimerEvent: {}
+[2.113574] (-) TimerEvent: {}
+[2.214210] (-) TimerEvent: {}
+[2.314833] (-) TimerEvent: {}
+[2.415449] (-) TimerEvent: {}
+[2.516116] (-) TimerEvent: {}
+[2.616774] (-) TimerEvent: {}
+[2.717351] (-) TimerEvent: {}
+[2.817956] (-) TimerEvent: {}
+[2.918658] (-) TimerEvent: {}
+[3.014262] (smart_arm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/smart_arm', 'build', '--build-base', '/home/csd/CSD-Project/build/smart_arm/build', 'install', '--record', '/home/csd/CSD-Project/build/smart_arm/install.log', '--single-version-externally-managed'], 'cwd': '/home/csd/CSD-Project/src/smart_arm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'csd', 'SSH_CLIENT': '192.168.180.164 51160 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/csd', 'OLDPWD': '/home/csd', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/csd/CSD-Project/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'csd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/home/csd/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'it_IT.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/csd/CSD-Project/install/smart_arm:/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/csd/CSD-Project/build/smart_arm', 'LC_ALL': 'it_IT.UTF-8', 'SSH_CONNECTION': '192.168.180.164 51160 192.168.180.94 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/csd/CSD-Project/build/smart_arm/prefix_override:/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.018787] (-) TimerEvent: {}
+[3.125918] (-) TimerEvent: {}
+[3.226552] (-) TimerEvent: {}
+[3.327236] (-) TimerEvent: {}
+[3.427921] (-) TimerEvent: {}
+[3.528529] (-) TimerEvent: {}
+[3.629098] (-) TimerEvent: {}
+[3.729705] (-) TimerEvent: {}
+[3.830298] (-) TimerEvent: {}
+[3.930925] (-) TimerEvent: {}
+[3.966892] (smart_arm) StdoutLine: {'line': b'running egg_info\n'}
+[3.969568] (smart_arm) StdoutLine: {'line': b'writing ../../build/smart_arm/smart_arm.egg-info/PKG-INFO\n'}
+[3.970675] (smart_arm) StdoutLine: {'line': b'writing dependency_links to ../../build/smart_arm/smart_arm.egg-info/dependency_links.txt\n'}
+[3.971553] (smart_arm) StdoutLine: {'line': b'writing entry points to ../../build/smart_arm/smart_arm.egg-info/entry_points.txt\n'}
+[3.972217] (smart_arm) StdoutLine: {'line': b'writing requirements to ../../build/smart_arm/smart_arm.egg-info/requires.txt\n'}
+[3.972721] (smart_arm) StdoutLine: {'line': b'writing top-level names to ../../build/smart_arm/smart_arm.egg-info/top_level.txt\n'}
+[3.980930] (smart_arm) StdoutLine: {'line': b"reading manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'\n"}
+[3.982388] (smart_arm) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.984860] (smart_arm) StdoutLine: {'line': b"writing manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'\n"}
+[3.985417] (smart_arm) StdoutLine: {'line': b'running build\n'}
+[3.985886] (smart_arm) StdoutLine: {'line': b'running build_py\n'}
+[3.986684] (smart_arm) StdoutLine: {'line': b'copying smart_arm/publisher_node.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm\n'}
+[3.988294] (smart_arm) StdoutLine: {'line': b'copying smart_arm/comm_handler.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm\n'}
+[3.990136] (smart_arm) StdoutLine: {'line': b'running install\n'}
+[3.990739] (smart_arm) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.991204] (smart_arm) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.991941] (smart_arm) StdoutLine: {'line': b'running install_lib\n'}
+[3.995456] (smart_arm) StdoutLine: {'line': b'copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/publisher_node.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm\n'}
+[3.996799] (smart_arm) StdoutLine: {'line': b'copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/comm_handler.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm\n'}
+[3.999534] (smart_arm) StdoutLine: {'line': b'byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/publisher_node.py to publisher_node.cpython-310.pyc\n'}
+[4.002259] (smart_arm) StdoutLine: {'line': b'byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/comm_handler.py to comm_handler.cpython-310.pyc\n'}
+[4.004861] (smart_arm) StdoutLine: {'line': b'running install_data\n'}
+[4.007334] (smart_arm) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.013511] (smart_arm) StdoutLine: {'line': b"removing '/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.015130] (smart_arm) StdoutLine: {'line': b'Copying ../../build/smart_arm/smart_arm.egg-info to /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info\n'}
+[4.019906] (smart_arm) StdoutLine: {'line': b'running install_scripts\n'}
+[4.031069] (-) TimerEvent: {}
+[4.095863] (smart_arm) StdoutLine: {'line': b'Installing arm_handler script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[4.096697] (smart_arm) StdoutLine: {'line': b'Installing comm_handler script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[4.097455] (smart_arm) StdoutLine: {'line': b'Installing publisher_node script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[4.098217] (smart_arm) StdoutLine: {'line': b'Installing servo_handler script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[4.100011] (smart_arm) StdoutLine: {'line': b"writing list of installed files to '/home/csd/CSD-Project/build/smart_arm/install.log'\n"}
+[4.131360] (-) TimerEvent: {}
+[4.212465] (smart_arm) CommandEnded: {'returncode': 0}
+[4.231475] (-) TimerEvent: {}
+[4.333388] (-) TimerEvent: {}
+[4.421499] (smart_arm) JobEnded: {'identifier': 'smart_arm', 'rc': 0}
+[4.424378] (-) EventReactorShutdown: {}

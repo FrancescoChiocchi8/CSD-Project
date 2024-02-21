@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/pyPackage/pyPackage.egg-info
+writing ../../build/pyPackage/pyPackage.egg-info/PKG-INFO
+writing dependency_links to ../../build/pyPackage/pyPackage.egg-info/dependency_links.txt
+writing entry points to ../../build/pyPackage/pyPackage.egg-info/entry_points.txt
+writing requirements to ../../build/pyPackage/pyPackage.egg-info/requires.txt
+writing top-level names to ../../build/pyPackage/pyPackage.egg-info/top_level.txt
+writing manifest file '../../build/pyPackage/pyPackage.egg-info/SOURCES.txt'
+reading manifest file '../../build/pyPackage/pyPackage.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/pyPackage/pyPackage.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/csd/CSD-Project/build/pyPackage/build
+creating /home/csd/CSD-Project/build/pyPackage/build/lib
+creating /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage
+copying pyPackage/test.py -> /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage
+copying pyPackage/__init__.py -> /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage
+running install
+running install_lib
+creating /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage
+copying /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage/test.py -> /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage
+copying /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage/__init__.py -> /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage
+byte-compiling /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage/test.py to test.cpython-310.pyc
+byte-compiling /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/csd/CSD-Project/install/pyPackage/share/ament_index
+creating /home/csd/CSD-Project/install/pyPackage/share/ament_index/resource_index
+creating /home/csd/CSD-Project/install/pyPackage/share/ament_index/resource_index/packages
+copying resource/pyPackage -> /home/csd/CSD-Project/install/pyPackage/share/ament_index/resource_index/packages
+copying package.xml -> /home/csd/CSD-Project/install/pyPackage/share/pyPackage
+running install_egg_info
+Copying ../../build/pyPackage/pyPackage.egg-info to /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test script to /home/csd/CSD-Project/install/pyPackage/lib/pyPackage
+writing list of installed files to '/home/csd/CSD-Project/build/pyPackage/install.log'

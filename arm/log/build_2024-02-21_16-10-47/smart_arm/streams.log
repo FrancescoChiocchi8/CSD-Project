@@ -1,0 +1,39 @@
+[3.615s] Invoking command in '/home/csd/CSD-Project/src/smart_arm': PYTHONPATH=/home/csd/CSD-Project/build/smart_arm/prefix_override:/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/smart_arm build --build-base /home/csd/CSD-Project/build/smart_arm/build install --record /home/csd/CSD-Project/build/smart_arm/install.log --single-version-externally-managed
+[4.566s] running egg_info
+[4.569s] writing ../../build/smart_arm/smart_arm.egg-info/PKG-INFO
+[4.570s] writing dependency_links to ../../build/smart_arm/smart_arm.egg-info/dependency_links.txt
+[4.571s] writing entry points to ../../build/smart_arm/smart_arm.egg-info/entry_points.txt
+[4.571s] writing requirements to ../../build/smart_arm/smart_arm.egg-info/requires.txt
+[4.572s] writing top-level names to ../../build/smart_arm/smart_arm.egg-info/top_level.txt
+[4.580s] reading manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'
+[4.583s] adding license file 'LICENSE'
+[4.586s] writing manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'
+[4.586s] running build
+[4.587s] running build_py
+[4.587s] copying smart_arm/servo_handler.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+[4.588s] copying smart_arm/ServoController.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+[4.589s] copying smart_arm/comm_handler.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+[4.590s] copying smart_arm/arm_handler.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+[4.591s] running install
+[4.593s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.593s]   warnings.warn(
+[4.594s] running install_lib
+[4.598s] copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/servo_handler.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+[4.599s] copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/ServoController.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+[4.601s] copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/comm_handler.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+[4.602s] copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/arm_handler.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+[4.604s] byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/servo_handler.py to servo_handler.cpython-310.pyc
+[4.608s] byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/ServoController.py to ServoController.cpython-310.pyc
+[4.611s] byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/comm_handler.py to comm_handler.cpython-310.pyc
+[4.613s] byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/arm_handler.py to arm_handler.cpython-310.pyc
+[4.615s] running install_data
+[4.617s] copying launch/smart_arm.py -> /home/csd/CSD-Project/install/smart_arm/share/smart_arm
+[4.618s] running install_egg_info
+[4.624s] removing '/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[4.626s] Copying ../../build/smart_arm/smart_arm.egg-info to /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info
+[4.635s] running install_scripts
+[4.714s] Installing arm_handler script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+[4.714s] Installing comm_handler script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+[4.715s] Installing servo_handler script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+[4.716s] writing list of installed files to '/home/csd/CSD-Project/build/smart_arm/install.log'
+[4.829s] Invoked command in '/home/csd/CSD-Project/src/smart_arm' returned '0': PYTHONPATH=/home/csd/CSD-Project/build/smart_arm/prefix_override:/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/smart_arm build --build-base /home/csd/CSD-Project/build/smart_arm/build install --record /home/csd/CSD-Project/build/smart_arm/install.log --single-version-externally-managed

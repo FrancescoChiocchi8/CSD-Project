@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/smart_arm/smart_arm.egg-info
+writing ../../build/smart_arm/smart_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/smart_arm/smart_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/smart_arm/smart_arm.egg-info/entry_points.txt
+writing requirements to ../../build/smart_arm/smart_arm.egg-info/requires.txt
+writing top-level names to ../../build/smart_arm/smart_arm.egg-info/top_level.txt
+writing manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'
+reading manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/csd/CSD-Project/build/smart_arm/build
+creating /home/csd/CSD-Project/build/smart_arm/build/lib
+creating /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+copying smart_arm/Movement.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+copying smart_arm/Subscriber.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+copying smart_arm/__init__.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+running install
+running install_lib
+creating /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/Movement.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/Subscriber.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/__init__.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/Movement.py to Movement.cpython-310.pyc
+byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/Subscriber.py to Subscriber.cpython-310.pyc
+byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/csd/CSD-Project/install/smart_arm/share/ament_index
+creating /home/csd/CSD-Project/install/smart_arm/share/ament_index/resource_index
+creating /home/csd/CSD-Project/install/smart_arm/share/ament_index/resource_index/packages
+copying resource/smart_arm -> /home/csd/CSD-Project/install/smart_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/csd/CSD-Project/install/smart_arm/share/smart_arm
+running install_egg_info
+Copying ../../build/smart_arm/smart_arm.egg-info to /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/csd/CSD-Project/build/smart_arm/install.log'

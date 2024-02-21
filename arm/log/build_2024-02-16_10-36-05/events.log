@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.001622] (custom_messages) JobQueued: {'identifier': 'custom_messages', 'dependencies': OrderedDict()}
+[0.002166] (picar_pro) JobQueued: {'identifier': 'picar_pro', 'dependencies': OrderedDict()}
+[0.002256] (smart_arm) JobQueued: {'identifier': 'smart_arm', 'dependencies': OrderedDict()}
+[0.002524] (custom_messages) JobStarted: {'identifier': 'custom_messages'}
+[0.099111] (-) TimerEvent: {}
+[0.200054] (-) TimerEvent: {}
+[0.247268] (picar_pro) JobStarted: {'identifier': 'picar_pro'}
+[0.300297] (-) TimerEvent: {}
+[0.401104] (-) TimerEvent: {}
+[0.502265] (-) TimerEvent: {}
+[0.547266] (smart_arm) JobStarted: {'identifier': 'smart_arm'}
+[0.602432] (-) TimerEvent: {}
+[0.707112] (-) TimerEvent: {}
+[0.807932] (-) TimerEvent: {}
+[0.852225] (custom_messages) JobProgress: {'identifier': 'custom_messages', 'progress': 'cmake'}
+[0.854762] (custom_messages) Command: {'cmd': ['/usr/bin/cmake', '/home/csd/CSD-Project/src/custom_messages', '-DCMAKE_INSTALL_PREFIX=/home/csd/CSD-Project/install/custom_messages'], 'cwd': '/home/csd/CSD-Project/build/custom_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'csd'), ('SSH_CLIENT', '192.168.81.164 49865 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/csd'), ('OLDPWD', '/home/csd/CSD-Project/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/csd/CSD-Project/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'csd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '3'), ('PATH', '/home/csd/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'it_IT.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/csd/CSD-Project/install/smart_arm:/home/csd/CSD-Project/install/picar_pro:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/csd/CSD-Project/build/custom_messages'), ('LC_ALL', 'it_IT.UTF-8'), ('SSH_CONNECTION', '192.168.81.164 49865 192.168.81.94 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/csd/CSD-Project/install/smart_arm:/home/csd/CSD-Project/install/picar_pro:/opt/ros/iron')]), 'shell': False}
+[0.908161] (-) TimerEvent: {}
+[1.009078] (-) TimerEvent: {}
+[1.109911] (-) TimerEvent: {}
+[1.210749] (-) TimerEvent: {}
+[1.312241] (-) TimerEvent: {}
+[1.413644] (-) TimerEvent: {}
+[1.515080] (-) TimerEvent: {}
+[1.616477] (-) TimerEvent: {}
+[1.717209] (-) TimerEvent: {}
+[1.817946] (-) TimerEvent: {}
+[1.918698] (-) TimerEvent: {}
+[2.019785] (-) TimerEvent: {}
+[2.121002] (-) TimerEvent: {}
+[2.224586] (-) TimerEvent: {}
+[2.325483] (-) TimerEvent: {}
+[2.351654] (custom_messages) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[2.354613] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[2.356178] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.357954] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.358562] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[2.358997] (custom_messages) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.359802] (custom_messages) StdoutLine: {'line': b'See also "/home/csd/CSD-Project/build/custom_messages/CMakeFiles/CMakeOutput.log".\n'}
+[2.362841] (custom_messages) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:59 (message):\n'}
+[2.363325] (custom_messages) StderrLine: {'line': b'  rosidl_generate_interfaces() called without any interface files\n'}
+[2.363683] (custom_messages) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.364013] (custom_messages) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[2.364357] (custom_messages) StderrLine: {'line': b'\n'}
+[2.364795] (custom_messages) StderrLine: {'line': b'\x1b[0m\n'}
+[2.425669] (-) TimerEvent: {}
+[2.526374] (-) TimerEvent: {}
+[2.627073] (-) TimerEvent: {}
+[2.727814] (-) TimerEvent: {}
+[2.828499] (-) TimerEvent: {}
+[2.929148] (-) TimerEvent: {}
+[3.029763] (-) TimerEvent: {}
+[3.130379] (-) TimerEvent: {}
+[3.231039] (-) TimerEvent: {}
+[3.331826] (-) TimerEvent: {}
+[3.433388] (-) TimerEvent: {}
+[3.534479] (-) TimerEvent: {}
+[3.635131] (-) TimerEvent: {}
+[3.643757] (custom_messages) CommandEnded: {'returncode': 1}
+[3.735434] (-) TimerEvent: {}
+[3.837567] (-) TimerEvent: {}
+[3.938474] (-) TimerEvent: {}
+[3.951711] (custom_messages) JobEnded: {'identifier': 'custom_messages', 'rc': 1}
+[4.038727] (-) TimerEvent: {}
+[4.139464] (-) TimerEvent: {}
+[4.240205] (-) TimerEvent: {}
+[4.340947] (-) TimerEvent: {}
+[4.441641] (-) TimerEvent: {}
+[4.542320] (-) TimerEvent: {}
+[4.643044] (-) TimerEvent: {}
+[4.743840] (-) TimerEvent: {}
+[4.844569] (-) TimerEvent: {}
+[4.945379] (-) TimerEvent: {}
+[5.046100] (-) TimerEvent: {}
+[5.146902] (-) TimerEvent: {}
+[5.247848] (-) TimerEvent: {}
+[5.349895] (-) TimerEvent: {}
+[5.414041] (picar_pro) JobEnded: {'identifier': 'picar_pro', 'rc': 'SIGINT'}
+[5.416477] (smart_arm) JobEnded: {'identifier': 'smart_arm', 'rc': 'SIGINT'}
+[5.427618] (-) EventReactorShutdown: {}

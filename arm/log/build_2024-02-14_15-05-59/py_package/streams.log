@@ -1,0 +1,27 @@
+[6.457s] Invoking command in '/home/csd/CSD-Project/src/py_package': PYTHONPATH=/home/csd/CSD-Project/build/py_package/prefix_override:/home/csd/CSD-Project/install/py_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_package build --build-base /home/csd/CSD-Project/build/py_package/build install --record /home/csd/CSD-Project/build/py_package/install.log --single-version-externally-managed
+[7.718s] running egg_info
+[7.722s] writing ../../build/py_package/py_package.egg-info/PKG-INFO
+[7.724s] writing dependency_links to ../../build/py_package/py_package.egg-info/dependency_links.txt
+[7.725s] writing entry points to ../../build/py_package/py_package.egg-info/entry_points.txt
+[7.727s] writing requirements to ../../build/py_package/py_package.egg-info/requires.txt
+[7.728s] writing top-level names to ../../build/py_package/py_package.egg-info/top_level.txt
+[7.739s] reading manifest file '../../build/py_package/py_package.egg-info/SOURCES.txt'
+[7.747s] adding license file 'LICENSE'
+[7.752s] writing manifest file '../../build/py_package/py_package.egg-info/SOURCES.txt'
+[7.753s] running build
+[7.754s] running build_py
+[7.756s] copying py_package/publisher.py -> /home/csd/CSD-Project/build/py_package/build/lib/py_package
+[7.757s] running install
+[7.759s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.760s]   warnings.warn(
+[7.760s] running install_lib
+[7.764s] copying /home/csd/CSD-Project/build/py_package/build/lib/py_package/publisher.py -> /home/csd/CSD-Project/install/py_package/lib/python3.10/site-packages/py_package
+[7.768s] byte-compiling /home/csd/CSD-Project/install/py_package/lib/python3.10/site-packages/py_package/publisher.py to publisher.cpython-310.pyc
+[7.770s] running install_data
+[7.774s] running install_egg_info
+[7.782s] removing '/home/csd/CSD-Project/install/py_package/lib/python3.10/site-packages/py_package-0.0.0-py3.10.egg-info' (and everything under it)
+[7.784s] Copying ../../build/py_package/py_package.egg-info to /home/csd/CSD-Project/install/py_package/lib/python3.10/site-packages/py_package-0.0.0-py3.10.egg-info
+[7.800s] running install_scripts
+[7.920s] Installing test script to /home/csd/CSD-Project/install/py_package/lib/py_package
+[7.925s] writing list of installed files to '/home/csd/CSD-Project/build/py_package/install.log'
+[8.580s] Invoked command in '/home/csd/CSD-Project/src/py_package' returned '0': PYTHONPATH=/home/csd/CSD-Project/build/py_package/prefix_override:/home/csd/CSD-Project/install/py_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_package build --build-base /home/csd/CSD-Project/build/py_package/build install --record /home/csd/CSD-Project/build/py_package/install.log --single-version-externally-managed

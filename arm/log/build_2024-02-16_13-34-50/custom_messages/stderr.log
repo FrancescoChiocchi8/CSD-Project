@@ -1,0 +1,3 @@
+gmake[2]: *** No rule to make target '/home/csd/CSD-Project/src/custom_messages/msg/CustomMessage.msg', needed by 'CMakeFiles/custom_messages'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/custom_messages.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

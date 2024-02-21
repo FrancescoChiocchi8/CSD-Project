@@ -1,0 +1,140 @@
+[3.924s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'custom_messages']
+[3.925s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['custom_messages'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8756e830>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8756fc70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8756fc70>>)
+[4.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.113s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/csd/CSD-Project'
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['ignore', 'ignore_ament_install']
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ignore'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ignore_ament_install'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['colcon_pkg']
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'colcon_pkg'
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['colcon_meta']
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'colcon_meta'
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['ros']
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ros'
+[4.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_messages' with type 'ros.ament_cmake' and name 'custom_messages'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extensions ['ignore', 'ignore_ament_install']
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'ignore'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'ignore_ament_install'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extensions ['colcon_pkg']
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'colcon_pkg'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extensions ['colcon_meta']
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'colcon_meta'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extensions ['ros']
+[4.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'ros'
+[4.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/picar_pro' with type 'ros.ament_python' and name 'picar_pro'
+[4.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_arm) by extensions ['ignore', 'ignore_ament_install']
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_arm) by extension 'ignore'
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_arm) by extension 'ignore_ament_install'
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_arm) by extensions ['colcon_pkg']
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_arm) by extension 'colcon_pkg'
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_arm) by extensions ['colcon_meta']
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_arm) by extension 'colcon_meta'
+[4.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_arm) by extensions ['ros']
+[4.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_arm) by extension 'ros'
+[4.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_arm' with type 'ros.ament_python' and name 'smart_arm'
+[4.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.429s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'picar_pro' in 'src/picar_pro'
+[4.429s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'smart_arm' in 'src/smart_arm'
+[4.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.657s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/csd/CSD-Project/install
+[4.717s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 192 installed packages in /opt/ros/iron
+[4.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.975s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_args' from command line to 'None'
+[4.976s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target' from command line to 'None'
+[4.976s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.976s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[4.976s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_first' from command line to 'False'
+[4.976s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_force_configure' from command line to 'False'
+[4.976s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'ament_cmake_args' from command line to 'None'
+[4.976s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[4.976s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.977s] DEBUG:colcon.colcon_core.verb:Building package 'custom_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csd/CSD-Project/build/custom_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csd/CSD-Project/install/custom_messages', 'merge_install': False, 'path': '/home/csd/CSD-Project/src/custom_messages', 'symlink_install': False, 'test_result_base': None}
+[5.031s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.089s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.090s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csd/CSD-Project/src/custom_messages' with build type 'ament_cmake'
+[5.091s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csd/CSD-Project/src/custom_messages'
+[5.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csd/CSD-Project/build/custom_messages': CMAKE_PREFIX_PATH=/home/csd/CSD-Project/install/smart_arm:/home/csd/CSD-Project/install/picar_pro:/opt/ros/iron /usr/bin/cmake /home/csd/CSD-Project/src/custom_messages -DCMAKE_INSTALL_PREFIX=/home/csd/CSD-Project/install/custom_messages
+[6.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csd/CSD-Project/build/custom_messages' returned '1': CMAKE_PREFIX_PATH=/home/csd/CSD-Project/install/smart_arm:/home/csd/CSD-Project/install/picar_pro:/opt/ros/iron /usr/bin/cmake /home/csd/CSD-Project/src/custom_messages -DCMAKE_INSTALL_PREFIX=/home/csd/CSD-Project/install/custom_messages
+[6.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/custom_messages' for CMake module files
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/custom_messages' for CMake config files
+[6.453s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/custom_messages/bin'
+[6.453s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[6.454s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/custom_messages/lib/python3.10/site-packages'
+[6.455s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/custom_messages/bin'
+[6.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/csd/CSD-Project/install/custom_messages/share/custom_messages/package.ps1'
+[6.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csd/CSD-Project/install/custom_messages/share/custom_messages/package.dsv'
+[6.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/csd/CSD-Project/install/custom_messages/share/custom_messages/package.sh'
+[6.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/csd/CSD-Project/install/custom_messages/share/custom_messages/package.bash'
+[6.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/csd/CSD-Project/install/custom_messages/share/custom_messages/package.zsh'
+[6.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csd/CSD-Project/install/custom_messages/share/colcon-core/packages/custom_messages)
+[6.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.537s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[6.538s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.619s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.621s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.622s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csd/CSD-Project/install/local_setup.ps1'
+[6.682s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csd/CSD-Project/install/_local_setup_util_ps1.py'
+[6.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csd/CSD-Project/install/setup.ps1'
+[6.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csd/CSD-Project/install/local_setup.sh'
+[6.748s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csd/CSD-Project/install/_local_setup_util_sh.py'
+[6.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csd/CSD-Project/install/setup.sh'
+[6.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csd/CSD-Project/install/local_setup.bash'
+[6.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csd/CSD-Project/install/setup.bash'
+[6.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csd/CSD-Project/install/local_setup.zsh'
+[6.873s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csd/CSD-Project/install/setup.zsh'

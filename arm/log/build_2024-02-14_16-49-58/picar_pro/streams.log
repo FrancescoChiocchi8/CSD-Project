@@ -1,0 +1,19 @@
+[4.863s] Invoking command in '/home/csd/CSD-Project/src/picar_pro': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed
+[5.957s] running egg_info
+[5.960s] writing ../../build/picar_pro/picar_pro.egg-info/PKG-INFO
+[5.962s] writing dependency_links to ../../build/picar_pro/picar_pro.egg-info/dependency_links.txt
+[5.963s] writing entry points to ../../build/picar_pro/picar_pro.egg-info/entry_points.txt
+[5.963s] writing requirements to ../../build/picar_pro/picar_pro.egg-info/requires.txt
+[5.964s] writing top-level names to ../../build/picar_pro/picar_pro.egg-info/top_level.txt
+[5.973s] reading manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+[5.975s] adding license file 'LICENSE'
+[5.979s] writing manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+[5.980s] running build
+[5.980s] running build_py
+[5.982s] running install
+[5.982s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.983s]   warnings.warn(
+[5.984s] running install_lib
+[5.991s] running install_data
+[5.997s] error: can't copy 'launch/Car_launch.py': doesn't exist or not a regular file
+[6.109s] Invoked command in '/home/csd/CSD-Project/src/picar_pro' returned '1': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed

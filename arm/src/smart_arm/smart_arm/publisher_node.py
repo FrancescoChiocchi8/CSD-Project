@@ -1,9 +1,10 @@
 import rclpy
 from rclpy.node import Node
-
 from std_msgs.msg import String
 
-
+'''
+This node is only for testing. 
+'''
 class PublisherNode(Node):
 
     def __init__(self):

@@ -2,6 +2,9 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
+'''
+This node forwards the message received from the robot communication node to the servo_handler node.
+'''
 class ArmHandler(Node):
 
     def __init__(self):
@@ -15,14 +18,21 @@ class ArmHandler(Node):
         self.get_logger().info('Received message: "%s"' % msg.data)
         self.read_mess(self.mess)
 
+    '''
+    This method examines the received content and forwards it to the "servo_topic", sending "left" if it has read "left"
+    and "right" if it has read "right".
+    '''
     def read_mess(self, mess):
          if mess is not None:
+            msg_to_publish = String()
             if self.mess.data == 'left':
-                self.publisher_.publish('left')
+                msg_to_publish.data = 'left'
+                self.publisher_.publish(msg_to_publish)
                 self.get_logger().info('going left...')
 
             elif self.mess.data == 'right':
-                self.publisher_.publish('right')
+                msg_to_publish.data = 'right'
+                self.publisher_.publish(msg_to_publish)
                 self.get_logger().info('going right...')
             
             else: 

@@ -1,0 +1,57 @@
+[3.616s] Invoking command in '/home/csd/CSD-Project/src/picar_pro': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed
+[4.549s] running egg_info
+[4.551s] writing ../../build/picar_pro/picar_pro.egg-info/PKG-INFO
+[4.552s] writing dependency_links to ../../build/picar_pro/picar_pro.egg-info/dependency_links.txt
+[4.553s] writing entry points to ../../build/picar_pro/picar_pro.egg-info/entry_points.txt
+[4.554s] writing requirements to ../../build/picar_pro/picar_pro.egg-info/requires.txt
+[4.555s] writing top-level names to ../../build/picar_pro/picar_pro.egg-info/top_level.txt
+[4.563s] reading manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+[4.569s] adding license file 'LICENSE'
+[4.571s] writing manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+[4.572s] running build
+[4.572s] running build_py
+[4.573s] copying picar_pro/camera_handler.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.574s] copying picar_pro/servo_handler.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.575s] copying picar_pro/wheels_handler.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.576s] copying picar_pro/ServoController.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.577s] copying picar_pro/picar_handler.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.577s] copying picar_pro/WheelController.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.578s] copying picar_pro/analysis_handler.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.579s] copying picar_pro/comm_handler.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.580s] copying picar_pro/ObjectAnalysis.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.582s] running install
+[4.585s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.586s]   warnings.warn(
+[4.586s] running install_lib
+[4.590s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/camera_handler.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.590s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/servo_handler.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.591s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/wheels_handler.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.592s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/ServoController.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.593s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/picar_handler.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.594s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/WheelController.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.595s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/analysis_handler.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.597s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/comm_handler.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.598s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/ObjectAnalysis.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.600s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/camera_handler.py to camera_handler.cpython-310.pyc
+[4.602s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/servo_handler.py to servo_handler.cpython-310.pyc
+[4.605s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/wheels_handler.py to wheels_handler.cpython-310.pyc
+[4.607s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/ServoController.py to ServoController.cpython-310.pyc
+[4.609s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/picar_handler.py to picar_handler.cpython-310.pyc
+[4.612s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/WheelController.py to WheelController.cpython-310.pyc
+[4.615s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/analysis_handler.py to analysis_handler.cpython-310.pyc
+[4.617s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/comm_handler.py to comm_handler.cpython-310.pyc
+[4.619s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/ObjectAnalysis.py to ObjectAnalysis.cpython-310.pyc
+[4.620s] running install_data
+[4.623s] copying launch/Car_launch.py -> /home/csd/CSD-Project/install/picar_pro/share/picar_pro
+[4.623s] running install_egg_info
+[4.630s] removing '/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info' (and everything under it)
+[4.631s] Copying ../../build/picar_pro/picar_pro.egg-info to /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info
+[4.639s] running install_scripts
+[4.717s] Installing analysis_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.717s] Installing camera_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.718s] Installing comm_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.718s] Installing picar_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.719s] Installing servo_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.719s] Installing wheels_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.721s] writing list of installed files to '/home/csd/CSD-Project/build/picar_pro/install.log'
+[4.834s] Invoked command in '/home/csd/CSD-Project/src/picar_pro' returned '0': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed

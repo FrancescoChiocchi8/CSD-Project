@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.001429] (pyPackage) JobQueued: {'identifier': 'pyPackage', 'dependencies': OrderedDict()}
+[0.001555] (pyPackage) JobStarted: {'identifier': 'pyPackage'}
+[0.098958] (-) TimerEvent: {}
+[0.199688] (-) TimerEvent: {}
+[0.300538] (-) TimerEvent: {}
+[0.402467] (-) TimerEvent: {}
+[0.503140] (-) TimerEvent: {}
+[0.603828] (-) TimerEvent: {}
+[0.704537] (-) TimerEvent: {}
+[0.805172] (-) TimerEvent: {}
+[0.905791] (-) TimerEvent: {}
+[1.006404] (-) TimerEvent: {}
+[1.107070] (-) TimerEvent: {}
+[1.207708] (-) TimerEvent: {}
+[1.308515] (-) TimerEvent: {}
+[1.409483] (-) TimerEvent: {}
+[1.510600] (-) TimerEvent: {}
+[1.611448] (-) TimerEvent: {}
+[1.712211] (-) TimerEvent: {}
+[1.812881] (-) TimerEvent: {}
+[1.913617] (-) TimerEvent: {}
+[2.014294] (-) TimerEvent: {}
+[2.114911] (-) TimerEvent: {}
+[2.215553] (-) TimerEvent: {}
+[2.316198] (-) TimerEvent: {}
+[2.416877] (-) TimerEvent: {}
+[2.517504] (-) TimerEvent: {}
+[2.618197] (-) TimerEvent: {}
+[2.719016] (-) TimerEvent: {}
+[2.819749] (-) TimerEvent: {}
+[2.920536] (-) TimerEvent: {}
+[3.021275] (-) TimerEvent: {}
+[3.122095] (-) TimerEvent: {}
+[3.222820] (-) TimerEvent: {}
+[3.323496] (-) TimerEvent: {}
+[3.424377] (-) TimerEvent: {}
+[3.525484] (-) TimerEvent: {}
+[3.529435] (pyPackage) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pyPackage', 'build', '--build-base', '/home/csd/CSD-Project/build/pyPackage/build', 'install', '--record', '/home/csd/CSD-Project/build/pyPackage/install.log', '--single-version-externally-managed'], 'cwd': '/home/csd/CSD-Project/src/pyPackage', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/csd', 'USER': 'csd', 'XDG_SEAT': 'seat0', 'ROS_PACKAGE_PATH': '/home/csd/CSD-Project/:/home/csd/CSD-Project/:/home/csd/CSD-Project', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/csd', 'OLDPWD': '/home/csd/CSD-Project/src', 'HUSHLOGIN': 'FALSE', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '1432', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/csd/CSD-Project/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'csd', 'JOURNAL_STREAM': '8:21267', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'linux', 'XDG_SESSION_ID': '1', 'PATH': '/home/csd/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '80c208ec3e5a433f966a1085fd676f51', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'it_IT.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '1', 'PWD': '/home/csd/CSD-Project/build/pyPackage', 'LC_ALL': 'it_IT.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/csd/CSD-Project/build/pyPackage/prefix_override:/home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.625639] (-) TimerEvent: {}
+[3.726372] (-) TimerEvent: {}
+[3.827007] (-) TimerEvent: {}
+[3.927665] (-) TimerEvent: {}
+[4.028673] (-) TimerEvent: {}
+[4.129290] (-) TimerEvent: {}
+[4.229939] (-) TimerEvent: {}
+[4.330589] (-) TimerEvent: {}
+[4.431311] (-) TimerEvent: {}
+[4.466413] (pyPackage) StdoutLine: {'line': b'running egg_info\n'}
+[4.468577] (pyPackage) StdoutLine: {'line': b'creating ../../build/pyPackage/pyPackage.egg-info\n'}
+[4.469321] (pyPackage) StdoutLine: {'line': b'writing ../../build/pyPackage/pyPackage.egg-info/PKG-INFO\n'}
+[4.470467] (pyPackage) StdoutLine: {'line': b'writing dependency_links to ../../build/pyPackage/pyPackage.egg-info/dependency_links.txt\n'}
+[4.471020] (pyPackage) StdoutLine: {'line': b'writing entry points to ../../build/pyPackage/pyPackage.egg-info/entry_points.txt\n'}
+[4.471551] (pyPackage) StdoutLine: {'line': b'writing requirements to ../../build/pyPackage/pyPackage.egg-info/requires.txt\n'}
+[4.472069] (pyPackage) StdoutLine: {'line': b'writing top-level names to ../../build/pyPackage/pyPackage.egg-info/top_level.txt\n'}
+[4.472839] (pyPackage) StdoutLine: {'line': b"writing manifest file '../../build/pyPackage/pyPackage.egg-info/SOURCES.txt'\n"}
+[4.479990] (pyPackage) StdoutLine: {'line': b"reading manifest file '../../build/pyPackage/pyPackage.egg-info/SOURCES.txt'\n"}
+[4.480888] (pyPackage) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.483115] (pyPackage) StdoutLine: {'line': b"writing manifest file '../../build/pyPackage/pyPackage.egg-info/SOURCES.txt'\n"}
+[4.483712] (pyPackage) StdoutLine: {'line': b'running build\n'}
+[4.484172] (pyPackage) StdoutLine: {'line': b'running build_py\n'}
+[4.484620] (pyPackage) StdoutLine: {'line': b'creating /home/csd/CSD-Project/build/pyPackage/build\n'}
+[4.485139] (pyPackage) StdoutLine: {'line': b'creating /home/csd/CSD-Project/build/pyPackage/build/lib\n'}
+[4.485570] (pyPackage) StdoutLine: {'line': b'creating /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage\n'}
+[4.485973] (pyPackage) StdoutLine: {'line': b'copying pyPackage/test.py -> /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage\n'}
+[4.486406] (pyPackage) StdoutLine: {'line': b'copying pyPackage/__init__.py -> /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage\n'}
+[4.487249] (pyPackage) StdoutLine: {'line': b'running install\n'}
+[4.489690] (pyPackage) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.490272] (pyPackage) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.490952] (pyPackage) StdoutLine: {'line': b'running install_lib\n'}
+[4.493932] (pyPackage) StdoutLine: {'line': b'creating /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage\n'}
+[4.494532] (pyPackage) StdoutLine: {'line': b'copying /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage/test.py -> /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage\n'}
+[4.495040] (pyPackage) StdoutLine: {'line': b'copying /home/csd/CSD-Project/build/pyPackage/build/lib/pyPackage/__init__.py -> /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage\n'}
+[4.497834] (pyPackage) StdoutLine: {'line': b'byte-compiling /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage/test.py to test.cpython-310.pyc\n'}
+[4.499548] (pyPackage) StdoutLine: {'line': b'byte-compiling /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage/__init__.py to __init__.cpython-310.pyc\n'}
+[4.500692] (pyPackage) StdoutLine: {'line': b'running install_data\n'}
+[4.503360] (pyPackage) StdoutLine: {'line': b'creating /home/csd/CSD-Project/install/pyPackage/share/ament_index\n'}
+[4.504184] (pyPackage) StdoutLine: {'line': b'creating /home/csd/CSD-Project/install/pyPackage/share/ament_index/resource_index\n'}
+[4.504815] (pyPackage) StdoutLine: {'line': b'creating /home/csd/CSD-Project/install/pyPackage/share/ament_index/resource_index/packages\n'}
+[4.505365] (pyPackage) StdoutLine: {'line': b'copying resource/pyPackage -> /home/csd/CSD-Project/install/pyPackage/share/ament_index/resource_index/packages\n'}
+[4.505972] (pyPackage) StdoutLine: {'line': b'copying package.xml -> /home/csd/CSD-Project/install/pyPackage/share/pyPackage\n'}
+[4.506352] (pyPackage) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.512424] (pyPackage) StdoutLine: {'line': b'Copying ../../build/pyPackage/pyPackage.egg-info to /home/csd/CSD-Project/install/pyPackage/lib/python3.10/site-packages/pyPackage-0.0.0-py3.10.egg-info\n'}
+[4.517330] (pyPackage) StdoutLine: {'line': b'running install_scripts\n'}
+[4.531466] (-) TimerEvent: {}
+[4.593881] (pyPackage) StdoutLine: {'line': b'Installing test script to /home/csd/CSD-Project/install/pyPackage/lib/pyPackage\n'}
+[4.595310] (pyPackage) StdoutLine: {'line': b"writing list of installed files to '/home/csd/CSD-Project/build/pyPackage/install.log'\n"}
+[4.631817] (-) TimerEvent: {}
+[4.710245] (pyPackage) CommandEnded: {'returncode': 0}
+[4.731968] (-) TimerEvent: {}
+[4.832935] (-) TimerEvent: {}
+[4.935046] (-) TimerEvent: {}
+[4.940987] (pyPackage) JobEnded: {'identifier': 'pyPackage', 'rc': 0}
+[4.946848] (-) EventReactorShutdown: {}

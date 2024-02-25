@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/smart_arm/smart_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/smart_arm/smart_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/smart_arm/smart_arm.egg-info/entry_points.txt
+writing requirements to ../../build/smart_arm/smart_arm.egg-info/requires.txt
+writing top-level names to ../../build/smart_arm/smart_arm.egg-info/top_level.txt
+reading manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying smart_arm/servo_handler.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+copying smart_arm/ServoController.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+copying smart_arm/claw_motor.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+copying smart_arm/car_arm_communication.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm
+running install
+running install_lib
+copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/servo_handler.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/ServoController.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/claw_motor.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/car_arm_communication.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm
+byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/servo_handler.py to servo_handler.cpython-310.pyc
+byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/ServoController.py to ServoController.cpython-310.pyc
+byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/claw_motor.py to claw_motor.cpython-310.pyc
+byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/car_arm_communication.py to car_arm_communication.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/smart_arm/smart_arm.egg-info to /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing car_arm_communication script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+Installing claw_motor script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+Installing movement script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+Installing servo_handler script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+writing list of installed files to '/home/csd/CSD-Project/build/smart_arm/install.log'

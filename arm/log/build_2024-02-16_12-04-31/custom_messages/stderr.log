@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file '$"msg/CustomMessage.msg"'
+  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/csd/CSD-Project/src/custom_messages'
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (rosidl_generate_interfaces)
+
+[0m

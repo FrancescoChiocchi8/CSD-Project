@@ -1,0 +1,15 @@
+[0.261s] Invoking command in '/home/csd/CSD-Project/build/custom_messages': CMAKE_PREFIX_PATH=/home/csd/CSD-Project/install/smart_arm:/home/csd/CSD-Project/install/picar_pro:/opt/ros/iron /usr/bin/cmake /home/csd/CSD-Project/src/custom_messages -DCMAKE_INSTALL_PREFIX=/home/csd/CSD-Project/install/custom_messages
+[0.310s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.941s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.210s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[1.227s] [31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:59 (message):
+[1.228s]   rosidl_generate_interfaces() called without any interface files
+[1.228s] Call Stack (most recent call first):
+[1.228s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.228s] 
+[1.229s] [0m
+[1.229s] -- Configuring incomplete, errors occurred!
+[1.230s] See also "/home/csd/CSD-Project/build/custom_messages/CMakeFiles/CMakeOutput.log".
+[1.242s] Invoked command in '/home/csd/CSD-Project/build/custom_messages' returned '1': CMAKE_PREFIX_PATH=/home/csd/CSD-Project/install/smart_arm:/home/csd/CSD-Project/install/picar_pro:/opt/ros/iron /usr/bin/cmake /home/csd/CSD-Project/src/custom_messages -DCMAKE_INSTALL_PREFIX=/home/csd/CSD-Project/install/custom_messages

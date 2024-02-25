@@ -1,0 +1,26 @@
+[0.000000] (-) TimerEvent: {}
+[0.001437] (picar_pro) JobQueued: {'identifier': 'picar_pro', 'dependencies': OrderedDict()}
+[0.001560] (smart_arm) JobQueued: {'identifier': 'smart_arm', 'dependencies': OrderedDict()}
+[0.002097] (picar_pro) JobStarted: {'identifier': 'picar_pro'}
+[0.098876] (-) TimerEvent: {}
+[0.199966] (-) TimerEvent: {}
+[0.301097] (-) TimerEvent: {}
+[0.308657] (smart_arm) JobStarted: {'identifier': 'smart_arm'}
+[0.401345] (-) TimerEvent: {}
+[0.502357] (-) TimerEvent: {}
+[0.603380] (-) TimerEvent: {}
+[0.704722] (-) TimerEvent: {}
+[0.805445] (-) TimerEvent: {}
+[0.906191] (-) TimerEvent: {}
+[1.006861] (-) TimerEvent: {}
+[1.107537] (-) TimerEvent: {}
+[1.208237] (-) TimerEvent: {}
+[1.308867] (-) TimerEvent: {}
+[1.409516] (-) TimerEvent: {}
+[1.510165] (-) TimerEvent: {}
+[1.610964] (-) TimerEvent: {}
+[1.715557] (-) TimerEvent: {}
+[1.804439] (picar_pro) JobEnded: {'identifier': 'picar_pro', 'rc': 0}
+[1.808020] (smart_arm) JobEnded: {'identifier': 'smart_arm', 'rc': 'SIGINT'}
+[1.815664] (-) TimerEvent: {}
+[1.818284] (-) EventReactorShutdown: {}

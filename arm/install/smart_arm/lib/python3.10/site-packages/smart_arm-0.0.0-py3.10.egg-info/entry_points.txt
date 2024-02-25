@@ -1,0 +1,6 @@
+[console_scripts]
+arm_handler = smart_arm.arm_handler:main
+comm_handler = smart_arm.comm_handler:main
+publisher_node = smart_arm.publisher_node:main
+servo_handler = smart_arm.servo_handler:main
+

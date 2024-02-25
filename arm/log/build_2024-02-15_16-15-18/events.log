@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.001095] (picar_pro) JobQueued: {'identifier': 'picar_pro', 'dependencies': OrderedDict()}
+[0.001555] (smart_arm) JobQueued: {'identifier': 'smart_arm', 'dependencies': OrderedDict()}
+[0.001666] (picar_pro) JobStarted: {'identifier': 'picar_pro'}
+[0.098085] (-) TimerEvent: {}
+[0.198957] (-) TimerEvent: {}
+[0.302675] (-) TimerEvent: {}
+[0.314445] (smart_arm) JobStarted: {'identifier': 'smart_arm'}
+[0.402847] (-) TimerEvent: {}
+[0.503989] (-) TimerEvent: {}
+[0.604967] (-) TimerEvent: {}
+[0.705659] (-) TimerEvent: {}
+[0.806326] (-) TimerEvent: {}
+[0.906984] (-) TimerEvent: {}
+[1.007624] (-) TimerEvent: {}
+[1.108273] (-) TimerEvent: {}
+[1.208945] (-) TimerEvent: {}
+[1.309578] (-) TimerEvent: {}
+[1.410186] (-) TimerEvent: {}
+[1.510804] (-) TimerEvent: {}
+[1.611646] (-) TimerEvent: {}
+[1.712716] (-) TimerEvent: {}
+[1.813986] (-) TimerEvent: {}
+[1.915325] (-) TimerEvent: {}
+[2.016201] (-) TimerEvent: {}
+[2.116885] (-) TimerEvent: {}
+[2.217659] (-) TimerEvent: {}
+[2.318305] (-) TimerEvent: {}
+[2.418971] (-) TimerEvent: {}
+[2.519650] (-) TimerEvent: {}
+[2.620255] (-) TimerEvent: {}
+[2.720939] (-) TimerEvent: {}
+[2.821658] (-) TimerEvent: {}
+[2.922518] (-) TimerEvent: {}
+[3.025177] (-) TimerEvent: {}
+[3.126285] (-) TimerEvent: {}
+[3.227654] (-) TimerEvent: {}
+[3.328926] (-) TimerEvent: {}
+[3.429700] (-) TimerEvent: {}
+[3.530482] (-) TimerEvent: {}
+[3.631264] (-) TimerEvent: {}
+[3.732024] (-) TimerEvent: {}
+[3.832794] (-) TimerEvent: {}
+[3.933637] (-) TimerEvent: {}
+[4.034387] (-) TimerEvent: {}
+[4.135110] (-) TimerEvent: {}
+[4.235786] (-) TimerEvent: {}
+[4.336488] (-) TimerEvent: {}
+[4.437345] (-) TimerEvent: {}
+[4.538119] (-) TimerEvent: {}
+[4.638839] (-) TimerEvent: {}
+[4.739846] (-) TimerEvent: {}
+[4.841733] (-) TimerEvent: {}
+[4.936407] (picar_pro) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/picar_pro', 'build', '--build-base', '/home/csd/CSD-Project/build/picar_pro/build', 'install', '--record', '/home/csd/CSD-Project/build/picar_pro/install.log', '--single-version-externally-managed'], 'cwd': '/home/csd/CSD-Project/src/picar_pro', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'csd', 'SSH_CLIENT': '192.168.81.164 50520 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/csd', 'OLDPWD': '/home/csd', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/csd/CSD-Project/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'csd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '3', 'PATH': '/home/csd/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'it_IT.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/csd/CSD-Project/install/smart_arm:/home/csd/CSD-Project/install/picar_pro:/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/csd/CSD-Project/build/picar_pro', 'LC_ALL': 'it_IT.UTF-8', 'SSH_CONNECTION': '192.168.81.164 50520 192.168.81.94 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.948734] (-) TimerEvent: {}
+[4.956267] (smart_arm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/smart_arm', 'build', '--build-base', '/home/csd/CSD-Project/build/smart_arm/build', 'install', '--record', '/home/csd/CSD-Project/build/smart_arm/install.log', '--single-version-externally-managed'], 'cwd': '/home/csd/CSD-Project/src/smart_arm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'csd', 'SSH_CLIENT': '192.168.81.164 50520 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/csd', 'OLDPWD': '/home/csd', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/csd/CSD-Project/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'csd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '3', 'PATH': '/home/csd/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'it_IT.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/csd/CSD-Project/install/smart_arm:/home/csd/CSD-Project/install/picar_pro:/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/csd/CSD-Project/build/smart_arm', 'LC_ALL': 'it_IT.UTF-8', 'SSH_CONNECTION': '192.168.81.164 50520 192.168.81.94 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/csd/CSD-Project/build/smart_arm/prefix_override:/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[5.048911] (-) TimerEvent: {}
+[5.149882] (-) TimerEvent: {}
+[5.250730] (-) TimerEvent: {}
+[5.351569] (-) TimerEvent: {}
+[5.452260] (-) TimerEvent: {}
+[5.553073] (-) TimerEvent: {}
+[5.653815] (-) TimerEvent: {}
+[5.754493] (-) TimerEvent: {}
+[5.855207] (-) TimerEvent: {}
+[5.955930] (-) TimerEvent: {}
+[6.056680] (-) TimerEvent: {}
+[6.058295] (picar_pro) StdoutLine: {'line': b'running egg_info\n'}
+[6.061514] (picar_pro) StdoutLine: {'line': b'writing ../../build/picar_pro/picar_pro.egg-info/PKG-INFO\n'}
+[6.062885] (picar_pro) StdoutLine: {'line': b'writing dependency_links to ../../build/picar_pro/picar_pro.egg-info/dependency_links.txt\n'}
+[6.063962] (picar_pro) StdoutLine: {'line': b'writing entry points to ../../build/picar_pro/picar_pro.egg-info/entry_points.txt\n'}
+[6.064772] (picar_pro) StdoutLine: {'line': b'writing requirements to ../../build/picar_pro/picar_pro.egg-info/requires.txt\n'}
+[6.065580] (picar_pro) StdoutLine: {'line': b'writing top-level names to ../../build/picar_pro/picar_pro.egg-info/top_level.txt\n'}
+[6.066269] (smart_arm) StdoutLine: {'line': b'running egg_info\n'}
+[6.069247] (smart_arm) StdoutLine: {'line': b'writing ../../build/smart_arm/smart_arm.egg-info/PKG-INFO\n'}
+[6.070519] (smart_arm) StdoutLine: {'line': b'writing dependency_links to ../../build/smart_arm/smart_arm.egg-info/dependency_links.txt\n'}
+[6.071931] (smart_arm) StdoutLine: {'line': b'writing entry points to ../../build/smart_arm/smart_arm.egg-info/entry_points.txt\n'}
+[6.072751] (smart_arm) StdoutLine: {'line': b'writing requirements to ../../build/smart_arm/smart_arm.egg-info/requires.txt\n'}
+[6.073761] (smart_arm) StdoutLine: {'line': b'writing top-level names to ../../build/smart_arm/smart_arm.egg-info/top_level.txt\n'}
+[6.075438] (picar_pro) StdoutLine: {'line': b"reading manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'\n"}
+[6.076963] (picar_pro) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.079879] (picar_pro) StdoutLine: {'line': b"writing manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'\n"}
+[6.080582] (picar_pro) StdoutLine: {'line': b'running build\n'}
+[6.081443] (picar_pro) StdoutLine: {'line': b'running build_py\n'}
+[6.083139] (smart_arm) StdoutLine: {'line': b"reading manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'\n"}
+[6.083787] (picar_pro) StdoutLine: {'line': b'running install\n'}
+[6.084370] (picar_pro) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.085075] (picar_pro) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.085639] (smart_arm) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.086086] (picar_pro) StdoutLine: {'line': b'running install_lib\n'}
+[6.087874] (smart_arm) StdoutLine: {'line': b"writing manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'\n"}
+[6.088544] (smart_arm) StdoutLine: {'line': b'running build\n'}
+[6.089060] (smart_arm) StdoutLine: {'line': b'running build_py\n'}
+[6.090451] (smart_arm) StdoutLine: {'line': b'copying smart_arm/Subscriber.py -> /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm\n'}
+[6.092626] (smart_arm) StdoutLine: {'line': b'running install\n'}
+[6.093488] (picar_pro) StdoutLine: {'line': b'running install_data\n'}
+[6.093964] (smart_arm) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.094559] (smart_arm) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.095101] (smart_arm) StdoutLine: {'line': b'running install_lib\n'}
+[6.095612] (picar_pro) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.099335] (smart_arm) StdoutLine: {'line': b'copying /home/csd/CSD-Project/build/smart_arm/build/lib/smart_arm/Subscriber.py -> /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm\n'}
+[6.102986] (picar_pro) StdoutLine: {'line': b"removing '/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.103675] (smart_arm) StdoutLine: {'line': b'byte-compiling /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm/Subscriber.py to Subscriber.cpython-310.pyc\n'}
+[6.104840] (picar_pro) StdoutLine: {'line': b'Copying ../../build/picar_pro/picar_pro.egg-info to /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info\n'}
+[6.106552] (smart_arm) StdoutLine: {'line': b'running install_data\n'}
+[6.109048] (smart_arm) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.111400] (picar_pro) StdoutLine: {'line': b'running install_scripts\n'}
+[6.117020] (smart_arm) StdoutLine: {'line': b"removing '/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.118837] (smart_arm) StdoutLine: {'line': b'Copying ../../build/smart_arm/smart_arm.egg-info to /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info\n'}
+[6.125432] (smart_arm) StdoutLine: {'line': b'running install_scripts\n'}
+[6.156875] (-) TimerEvent: {}
+[6.201960] (picar_pro) StdoutLine: {'line': b'Installing listener script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro\n'}
+[6.203334] (picar_pro) StdoutLine: {'line': b'Installing movement script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro\n'}
+[6.204746] (picar_pro) StdoutLine: {'line': b'Installing talker script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro\n'}
+[6.206658] (picar_pro) StdoutLine: {'line': b"writing list of installed files to '/home/csd/CSD-Project/build/picar_pro/install.log'\n"}
+[6.223537] (smart_arm) StdoutLine: {'line': b'Installing car_arm_communication script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[6.228925] (smart_arm) StdoutLine: {'line': b'Installing claw_motor script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[6.230021] (smart_arm) StdoutLine: {'line': b'Installing listener script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[6.231844] (smart_arm) StdoutLine: {'line': b'Installing movement script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[6.233653] (smart_arm) StdoutLine: {'line': b'Installing servo_handler script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[6.234424] (smart_arm) StdoutLine: {'line': b'Installing talker script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm\n'}
+[6.235704] (smart_arm) StdoutLine: {'line': b"writing list of installed files to '/home/csd/CSD-Project/build/smart_arm/install.log'\n"}
+[6.257407] (-) TimerEvent: {}
+[6.360842] (-) TimerEvent: {}
+[6.386197] (picar_pro) CommandEnded: {'returncode': 0}
+[6.461388] (-) TimerEvent: {}
+[6.562188] (-) TimerEvent: {}
+[6.610440] (picar_pro) JobEnded: {'identifier': 'picar_pro', 'rc': 0}
+[6.614042] (smart_arm) CommandEnded: {'returncode': 0}
+[6.662337] (-) TimerEvent: {}
+[6.763464] (-) TimerEvent: {}
+[6.812080] (smart_arm) JobEnded: {'identifier': 'smart_arm', 'rc': 0}
+[6.815468] (-) EventReactorShutdown: {}

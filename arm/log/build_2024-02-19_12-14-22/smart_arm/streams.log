@@ -1,0 +1,27 @@
+[5.204s] Invoking command in '/home/csd/CSD-Project/src/smart_arm': PYTHONPATH=/home/csd/CSD-Project/build/smart_arm/prefix_override:/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/smart_arm build --build-base /home/csd/CSD-Project/build/smart_arm/build install --record /home/csd/CSD-Project/build/smart_arm/install.log --single-version-externally-managed
+[6.308s] running egg_info
+[6.311s] writing ../../build/smart_arm/smart_arm.egg-info/PKG-INFO
+[6.312s] writing dependency_links to ../../build/smart_arm/smart_arm.egg-info/dependency_links.txt
+[6.313s] writing entry points to ../../build/smart_arm/smart_arm.egg-info/entry_points.txt
+[6.314s] writing requirements to ../../build/smart_arm/smart_arm.egg-info/requires.txt
+[6.315s] writing top-level names to ../../build/smart_arm/smart_arm.egg-info/top_level.txt
+[6.325s] reading manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'
+[6.328s] adding license file 'LICENSE'
+[6.331s] writing manifest file '../../build/smart_arm/smart_arm.egg-info/SOURCES.txt'
+[6.332s] running build
+[6.332s] running build_py
+[6.335s] running install
+[6.336s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.337s]   warnings.warn(
+[6.338s] running install_lib
+[6.347s] running install_data
+[6.349s] running install_egg_info
+[6.357s] removing '/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[6.362s] Copying ../../build/smart_arm/smart_arm.egg-info to /home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages/smart_arm-0.0.0-py3.10.egg-info
+[6.369s] running install_scripts
+[6.459s] Installing car_arm_communication script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+[6.460s] Installing claw_motor script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+[6.461s] Installing movement script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+[6.462s] Installing servo_handler script to /home/csd/CSD-Project/install/smart_arm/lib/smart_arm
+[6.465s] writing list of installed files to '/home/csd/CSD-Project/build/smart_arm/install.log'
+[6.640s] Invoked command in '/home/csd/CSD-Project/src/smart_arm' returned '0': PYTHONPATH=/home/csd/CSD-Project/build/smart_arm/prefix_override:/home/csd/CSD-Project/install/smart_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/smart_arm build --build-base /home/csd/CSD-Project/build/smart_arm/build install --record /home/csd/CSD-Project/build/smart_arm/install.log --single-version-externally-managed

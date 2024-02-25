@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000927] (-) JobUnselected: {'identifier': 'picar_pro'}
+[0.001338] (-) JobUnselected: {'identifier': 'smart_arm'}
+[0.001419] (-) EventReactorShutdown: {}

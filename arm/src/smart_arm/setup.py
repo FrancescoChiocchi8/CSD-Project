@@ -21,7 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'publisher_node = smart_arm.publisher_node:main',
+            #'publisher_node = smart_arm.publisher_node:main',
             'comm_handler = smart_arm.comm_handler:main',
             'arm_handler = smart_arm.arm_handler:main',
             'servo_handler = smart_arm.servo_handler:main',

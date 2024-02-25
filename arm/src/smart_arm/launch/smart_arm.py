@@ -3,12 +3,12 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        Node(
-            package='smart_arm',
-            namespace='smart_arm',
-            executable='publisher_node',
-            name='main',
-        ),
+        #Node(
+        #    package='smart_arm',
+        #    namespace='smart_arm',
+        #    executable='publisher_node',
+        #    name='main',
+        #),
         Node(
             package='smart_arm',
             namespace='smart_arm',

@@ -7,9 +7,9 @@ pwm = Adafruit.PCA9685()
 pwmFrequency = 50
 kit = ServoKit(channels=16, frequency=50)
 
-def moveServo(servoPin, angle):
+def moveServo(servoPin, angle, duration):
     kit.servo[servoPin].angle = angle
-    sleep(2)
+    sleep(duration)
     
 def releaseAllServos():
     pwm.set_pwm(12, 0, 0)
@@ -19,8 +19,6 @@ def releaseAllServos():
     sleep(0.5)
 
 def initPos():
-    moveServo(12, 70)
-    moveServo(13, 180)
-    moveServo(14, 100)
-    moveServo(15, 0)
+    moveServo(12, 65, 2)
+    moveServo(15, 0, 3)
 

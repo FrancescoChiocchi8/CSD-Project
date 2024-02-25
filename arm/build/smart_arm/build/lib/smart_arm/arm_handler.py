@@ -9,35 +9,28 @@ class ArmHandler(Node):
 
     def __init__(self):
         super().__init__('arm_handler')
-        self.subscription = self.create_subscription(String, 'armComm_topic', self.listener_callback, 10)
-        self.publisher_ = self.create_publisher(String, 'servo_topic', 10)
-        self.mess = None
+        self.comm_subscription = self.create_subscription(String, '/comm_topic', self.comm_callback, 10)
+        self.servo_publisher = self.create_publisher(String, 'servo_topic', 10)
+        self.comm_publisher = self.create_publisher(String, 'armComm_topic', 10)
 
-    def listener_callback(self, msg):
-        self.mess = msg
-        self.get_logger().info('Received message: "%s"' % msg.data)
-        self.read_mess()
+        self.commMsg = String()
+        self.servoMsg = String()
 
     '''
     This method examines the received content and forwards it to the "servo_topic", sending "left" if it has read "left"
     and "right" if it has read "right".
     '''
-    def read_mess(self):
-        if self.mess.data is not None:
-            msg_to_publish = String()
-            if self.mess.data == 'left':
-                msg_to_publish.data = 'left'
-                self.publisher_.publish(msg_to_publish)
-                self.get_logger().info('going left...')
+    def comm_callback(self, msg):
+        self.commMsg = msg
+        self.get_logger().info('Received comm message: "%s"' % msg.data)
 
-            elif self.mess.data == 'right':
-                msg_to_publish.data = 'right'
-                self.publisher_.publish(msg_to_publish)
-                self.get_logger().info('going right...')
+        self.servo_publisher.publish(self.commMsg)
             
-            else: 
-                self.get_logger().info('Invalid message')
+    def servo_callback(self, msg):
+        self.servoMsg = msg
+        self.get_logger().info('Received servo message: "%s"' % msg.data)
 
+        self.comm_publisher.publish(self.servoMsg)
 
 def main(args=None):
     rclpy.init(args=args)

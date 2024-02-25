@@ -7,7 +7,7 @@ from std_msgs.msg import String
 class CameraHandler(Node):
     def __init__(self):
         super().__init__('camera_handler')
-        self.publisher_ = self.create_publisher(String, 'obj_topic', 10)
+        self.publisher_ = self.create_publisher(String, 'camera_topic', 10)
         #self.published = False
         timer_period = 15
         self.timer = self.create_timer(timer_period, self.timer_callback)

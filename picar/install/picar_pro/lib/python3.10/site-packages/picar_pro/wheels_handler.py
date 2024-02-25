@@ -1,14 +1,14 @@
 import rclpy, time
 from rclpy.node import Node
 from std_msgs.msg import String
-from picar_pro.WheelController import main as move
-
+import picar_pro.WheelController as WC
 
 class WheelsHandler(Node):
     def __init__(self):
         super().__init__('wheels_handler')
         self.subscription = self.create_subscription(String, 'wheels_topic', self.listener_callback, 10)
         self.mess = None
+        WC.setup()
 
     def listener_callback(self, msg):
         self.mess = msg
@@ -17,33 +17,21 @@ class WheelsHandler(Node):
 
     def execute_operations(self):
         if self.mess is not None:
-            if self.mess.data == 'destra':
-                self.get_logger().info('Andando verso destra...')
-                self.initial_position()
-                time.sleep(5)
-                self.moving_servos(0, 0)
-                self.moving_servos(1, 0)
-
-            elif self.mess.data == 'sinistra':
-                self.get_logger().info('Andando verso sinistra...')
-                self.initial_position()
-                time.sleep(5)
-                self.moving_servos(0, 180)
-                self.moving_servos(1, 180) 
-
-            else:
-                self.get_logger().warning('Messaggio non valido: "%s"' % self.mess.data)
+            parseMovement(self)
+        else:
+            self.get_logger().warning('Messaggio non valido: "%s"' % self.mess.data)
 
 def parseMovement(self):
     if self.mess is not None:
-      movementParams = self.mess.split("/")
-
-      speed = int(next(movementParams))
-      direction = next(movementParams)
-      turn = next(movementParams)
-      duration= float(next(movementParams))
-
-      move(speed, direction, turn, duration)
+      if str(self.mess.data) == "YES":
+        WC.move(100, "backward", "no", 0.5)
+        WC.move(100, "forward", "right", 0.5)
+        WC.move(100, "forward", "left", 0.5)
+        WC.move(100, "forward", "left", 0.67)
+        WC.move(100, "forward", "right", 0.45)
+      else:
+        movementParams = str(self.mess.data).split("/")
+        WC.move(int(movementParams[0]), movementParams[1], movementParams[2], float(movementParams[3]))
 
 def main(args=None):
     rclpy.init(args=args)

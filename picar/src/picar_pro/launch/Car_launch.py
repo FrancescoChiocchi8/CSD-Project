@@ -14,13 +14,7 @@ def generate_launch_description():
             namespace='smart_car',
             executable='analysis_handler',
             name='main',
-        ),  
-        Node(
-            package='picar_pro',
-            namespace='smart_car',
-            executable='camera_handler',
-            name='main',
-        ),  
+        ),
         Node(
             package='picar_pro',
             namespace='smart_car',

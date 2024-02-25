@@ -1,0 +1,129 @@
+[4.974s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.974s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff82832830>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff82b557b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff82b557b0>>)
+[5.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.270s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/csd/CSD-Project'
+[5.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extensions ['ignore', 'ignore_ament_install']
+[5.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'ignore'
+[5.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'ignore_ament_install'
+[5.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extensions ['colcon_pkg']
+[5.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'colcon_pkg'
+[5.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extensions ['colcon_meta']
+[5.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'colcon_meta'
+[5.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extensions ['ros']
+[5.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_pro) by extension 'ros'
+[5.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/picar_pro' with type 'ros.ament_python' and name 'picar_pro'
+[5.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.925s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/csd/CSD-Project/install
+[5.991s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 192 installed packages in /opt/ros/iron
+[5.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.264s] Level 5:colcon.colcon_core.verb:set package 'picar_pro' build argument 'cmake_args' from command line to 'None'
+[6.264s] Level 5:colcon.colcon_core.verb:set package 'picar_pro' build argument 'cmake_target' from command line to 'None'
+[6.264s] Level 5:colcon.colcon_core.verb:set package 'picar_pro' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.264s] Level 5:colcon.colcon_core.verb:set package 'picar_pro' build argument 'cmake_clean_cache' from command line to 'False'
+[6.264s] Level 5:colcon.colcon_core.verb:set package 'picar_pro' build argument 'cmake_clean_first' from command line to 'False'
+[6.264s] Level 5:colcon.colcon_core.verb:set package 'picar_pro' build argument 'cmake_force_configure' from command line to 'False'
+[6.264s] Level 5:colcon.colcon_core.verb:set package 'picar_pro' build argument 'ament_cmake_args' from command line to 'None'
+[6.265s] Level 5:colcon.colcon_core.verb:set package 'picar_pro' build argument 'catkin_cmake_args' from command line to 'None'
+[6.265s] Level 5:colcon.colcon_core.verb:set package 'picar_pro' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.265s] DEBUG:colcon.colcon_core.verb:Building package 'picar_pro' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csd/CSD-Project/build/picar_pro', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csd/CSD-Project/install/picar_pro', 'merge_install': False, 'path': '/home/csd/CSD-Project/src/picar_pro', 'symlink_install': False, 'test_result_base': None}
+[6.319s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.377s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/csd/CSD-Project/src/picar_pro' with build type 'ament_python'
+[6.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('picar_pro', 'ament_prefix_path')
+[6.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/hook/ament_prefix_path.ps1'
+[6.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/hook/ament_prefix_path.dsv'
+[6.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/hook/ament_prefix_path.sh'
+[6.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.780s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/csd/CSD-Project/src/picar_pro'
+[7.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csd/CSD-Project/src/picar_pro': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed
+[11.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csd/CSD-Project/src/picar_pro' returned '0': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed
+[11.310s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/picar_pro' for CMake module files
+[11.314s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/picar_pro' for CMake config files
+[11.323s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/picar_pro/lib'
+[11.323s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/picar_pro/bin'
+[11.324s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/picar_pro/lib/pkgconfig/picar_pro.pc'
+[11.325s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages'
+[11.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('picar_pro', 'pythonpath')
+[11.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/hook/pythonpath.ps1'
+[11.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/hook/pythonpath.dsv'
+[11.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/hook/pythonpath.sh'
+[11.389s] Level 1:colcon.colcon_core.environment:checking '/home/csd/CSD-Project/install/picar_pro/bin'
+[11.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(picar_pro)
+[11.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/package.ps1'
+[11.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/package.dsv'
+[11.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/package.sh'
+[11.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/package.bash'
+[11.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/csd/CSD-Project/install/picar_pro/share/picar_pro/package.zsh'
+[11.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csd/CSD-Project/install/picar_pro/share/colcon-core/packages/picar_pro)
+[11.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.475s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.475s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.476s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.570s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.571s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.604s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.604s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.664s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csd/CSD-Project/install/local_setup.ps1'
+[11.670s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csd/CSD-Project/install/_local_setup_util_ps1.py'
+[11.677s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csd/CSD-Project/install/setup.ps1'
+[11.741s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csd/CSD-Project/install/local_setup.sh'
+[11.744s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csd/CSD-Project/install/_local_setup_util_sh.py'
+[11.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csd/CSD-Project/install/setup.sh'
+[11.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csd/CSD-Project/install/local_setup.bash'
+[11.813s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csd/CSD-Project/install/setup.bash'
+[11.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csd/CSD-Project/install/local_setup.zsh'
+[11.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csd/CSD-Project/install/setup.zsh'

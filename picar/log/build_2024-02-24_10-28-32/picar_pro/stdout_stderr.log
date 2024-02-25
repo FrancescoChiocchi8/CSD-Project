@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/picar_pro/picar_pro.egg-info/PKG-INFO
+writing dependency_links to ../../build/picar_pro/picar_pro.egg-info/dependency_links.txt
+writing entry points to ../../build/picar_pro/picar_pro.egg-info/entry_points.txt
+writing requirements to ../../build/picar_pro/picar_pro.egg-info/requires.txt
+writing top-level names to ../../build/picar_pro/picar_pro.egg-info/top_level.txt
+reading manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+running build
+running build_py
+copying picar_pro/picar_handler.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+copying picar_pro/analysis_handler.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/picar_handler.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/analysis_handler.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/picar_handler.py to picar_handler.cpython-310.pyc
+byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/analysis_handler.py to analysis_handler.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/picar_pro/picar_pro.egg-info to /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info
+running install_scripts
+Installing analysis_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+Installing comm_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+Installing picar_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+Installing servo_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+Installing wheels_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+writing list of installed files to '/home/csd/CSD-Project/build/picar_pro/install.log'

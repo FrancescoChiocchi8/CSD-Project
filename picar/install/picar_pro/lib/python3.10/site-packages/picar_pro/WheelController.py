@@ -20,9 +20,9 @@ forward = 1
 backward = 0
 
 #wheelServo positions
-left = 150
-straight = 300
-right = 450
+right = 196 #124.5
+straight = 316 #94.5
+left = 436 #64.5
 
 #setup motors
 def setup():
@@ -42,6 +42,11 @@ def setup():
 		pwmL = GPIO.PWM(LeftMotorPin, 1000)
 	except:
 		pass
+	
+	pwm.set_pwm(0, 0, straight)
+
+def turnWheels(turn):
+	pwm.set_pwm(0, 0, turn)
 
 #move motors forward
 def motorForward(speed):
@@ -71,42 +76,31 @@ def motorStop():
 	GPIO.output(LeftWheelPin2, GPIO.LOW)
 	GPIO.output(RightMotorPin, GPIO.LOW)
 	GPIO.output(LeftMotorPin, GPIO.LOW)
-	pwm.set_pwm(0, 0, 0)
 	sleep(0.5)
 
-#release resource
 def releaseMotors():
 	motorStop()
+	turnWheels(straight)
 	GPIO.cleanup()
 
 def move(speed, direction, turn, duration):
+	setup()
+	turnWheels(straight)
+
 	if direction == 'forward':
-		if turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)
-		elif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)
+		if turn == 'right': turnWheels(right)
+		elif turn == 'left': turnWheels(left)
 
 		sleep(0.5)
 		motorForward(speed)
 
 	elif direction == 'backward':
-		if turn == 'right': pwm.set_pwm(wheelServoPin, 0, right)
-		elif turn == 'left': pwm.set_pwm(wheelServoPin, 0, left)
+		if turn == 'right': turnWheels(right)
+		elif turn == 'left': turnWheels(left)
 		
 		sleep(0.5)
 		motorBackward(speed)
 
-	else:
-		motorStop()
-
 	sleep(duration)
-	pwm.set_pwm(wheelServoPin, 0, straight)
 	motorStop()
-
-def main(speed, direction, turn, duration):
-	try:
-		setup()
-
-		move(speed, direction, turn, duration)
-
-		releaseMotors()
-	except KeyboardInterrupt:
-		releaseMotors()
+	releaseMotors()

@@ -15,7 +15,6 @@ picar_pro/ServoController.py
 picar_pro/WheelController.py
 picar_pro/__init__.py
 picar_pro/analysis_handler.py
-picar_pro/camera_handler.py
 picar_pro/comm_handler.py
 picar_pro/picar_handler.py
 picar_pro/servo_handler.py

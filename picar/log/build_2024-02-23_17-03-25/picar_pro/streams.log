@@ -1,0 +1,31 @@
+[3.043s] Invoking command in '/home/csd/CSD-Project/src/picar_pro': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed
+[3.982s] running egg_info
+[3.984s] writing ../../build/picar_pro/picar_pro.egg-info/PKG-INFO
+[3.985s] writing dependency_links to ../../build/picar_pro/picar_pro.egg-info/dependency_links.txt
+[3.986s] writing entry points to ../../build/picar_pro/picar_pro.egg-info/entry_points.txt
+[3.987s] writing requirements to ../../build/picar_pro/picar_pro.egg-info/requires.txt
+[3.987s] writing top-level names to ../../build/picar_pro/picar_pro.egg-info/top_level.txt
+[3.995s] reading manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+[3.997s] adding license file 'LICENSE'
+[4.000s] writing manifest file '../../build/picar_pro/picar_pro.egg-info/SOURCES.txt'
+[4.000s] running build
+[4.001s] running build_py
+[4.002s] copying picar_pro/picar_handler.py -> /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro
+[4.005s] running install
+[4.005s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.006s]   warnings.warn(
+[4.006s] running install_lib
+[4.011s] copying /home/csd/CSD-Project/build/picar_pro/build/lib/picar_pro/picar_handler.py -> /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro
+[4.016s] byte-compiling /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro/picar_handler.py to picar_handler.cpython-310.pyc
+[4.020s] running install_data
+[4.022s] running install_egg_info
+[4.029s] removing '/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info' (and everything under it)
+[4.031s] Copying ../../build/picar_pro/picar_pro.egg-info to /home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages/picar_pro-0.0.0-py3.10.egg-info
+[4.035s] running install_scripts
+[4.111s] Installing analysis_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.112s] Installing comm_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.112s] Installing picar_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.113s] Installing servo_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.114s] Installing wheels_handler script to /home/csd/CSD-Project/install/picar_pro/lib/picar_pro
+[4.116s] writing list of installed files to '/home/csd/CSD-Project/build/picar_pro/install.log'
+[4.230s] Invoked command in '/home/csd/CSD-Project/src/picar_pro' returned '0': PYTHONPATH=/home/csd/CSD-Project/build/picar_pro/prefix_override:/home/csd/CSD-Project/install/picar_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picar_pro build --build-base /home/csd/CSD-Project/build/picar_pro/build install --record /home/csd/CSD-Project/build/picar_pro/install.log --single-version-externally-managed

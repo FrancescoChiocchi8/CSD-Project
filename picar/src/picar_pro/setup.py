@@ -22,7 +22,6 @@ setup(
     entry_points={
         'console_scripts': [
                 'analysis_handler = picar_pro.analysis_handler:main',
-                'camera_handler = picar_pro.camera_handler:main',
                 'comm_handler = picar_pro.comm_handler:main',
                 'picar_handler = picar_pro.picar_handler:main',
                 'servo_handler = picar_pro.servo_handler:main',

@@ -5,19 +5,17 @@ from std_msgs.msg import String
 class CommHandler(Node):
     def __init__(self):
         super().__init__('comm_handler')
-        self.subscription = self.create_subscription(String, 'picarComm_topic', self.listener_callback, 10)
-        self.publisher = self.create_publisher(String, '/comm_topic', 10)
-        self.mess = None
+        self.picarComm_subscription = self.create_subscription(String, 'picarComm_topic', self.picarComm_callback, 10)
+        self.comm_publisher = self.create_publisher(String, '/comm_topic', 10)
 
-    def listener_callback(self, msg):
-        self.mess = msg
-        self.get_logger().info('Received message: "%s"' % msg.data)
-        self.forward_message()
+        self.commMsg = None
+    
+    def picarComm_callback(self, msg):
+        self.commMsg = msg
+        self.get_logger().info('Received picar_comm message: "%s"' % msg.data)
 
-    def forward_message(self):
-        if self.mess is not None:
-            self.publisher.publish(self.mess)
-            self.get_logger().info('Forwarded comm message: "%s"' % self.mess.data)
+        self.comm_publisher.publish(self.commMsg)
+        self.get_logger().info('Forwarded picar -> arm message: "%s"' % self.commMsg.data)
 
 def main(args=None):
     rclpy.init(args=args)

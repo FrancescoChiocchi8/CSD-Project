@@ -11,30 +11,21 @@ class ServoHandler(Node):
 
     def listener_callback(self, msg):
         self.mess = msg
-        self.get_logger().info('Received message: "%s"' % msg.data)
-        self.execute_operations()
+        self.get_logger().info('Received picar -> servo message: "%s"' % msg.data)
 
-    """ def execute_operations(self):
-        if self.mess is not None:
-                if self.mess.data == 'destra':
-                    self.get_logger().info('Andando verso destra...')
-                    self.initial_position()
-                    SC.moveServo(2, 90)
-                    time.sleep(5)
-                    SC.moveServo(3, 45)
-                    SC.moveServo(4, 90)
-
-                elif self.mess.data == 'sinistra':
-                    self.get_logger().info('Andando verso sinistra...')
-                    self.initial_position()
-                    time.sleep(5)
-                    SC.moveServo(2, 0)
-                    SC.moveServo(3, 0) 
-                    SC.moveServo(4, 0)
-
-                else:
-                    self.get_logger().warning('Messaggio non valido: "%s"' % self.mess.data) """
-
+        if(msg.data == "GRAB"):
+            SC.moveServo(4, 100, 4) #apre la mano
+            SC.moveServo(2, 0, 2) #si abbassa parallelo al terreno
+            SC.moveServo(1, 0, 5) #gira verso destra alla piattaforma con il blocco e ci da tempo di piazzarlo
+            SC.moveServo(4, 0, 4) #chiude la mano
+            SC.moveServo(1, 115, 2) #gira il braccio avanti
+            SC.moveServo(2, 150, 2) #alza il braccio
+            SC.releaseAllServos()
+        elif(msg.data == "LOWER"):
+            SC.moveServo(2, 0, 2)
+        elif(msg.data == "RELEASE"):
+            SC.moveServo(4, 100, 4)
+            SC.releaseAllServos()
 
 def main(args=None):
     rclpy.init(args=args)

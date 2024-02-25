@@ -12,27 +12,20 @@ class WheelsHandler(Node):
 
     def listener_callback(self, msg):
         self.mess = msg
-        self.get_logger().info('Received message: "%s"' % msg.data)
-        self.execute_operations()
+        self.get_logger().info('Received picar -> wheels message: "%s"' % msg.data)
 
-    def execute_operations(self):
-        if self.mess is not None:
-            parseMovement(self)
+        if msg.data == "YES":
+            WC.move(100, "backward", "no", 0.5)
+            WC.move(100, "forward", "right", 0.5)
+            WC.move(100, "forward", "left", 0.5)
+            WC.move(100, "forward", "left", 0.67)
+            WC.move(100, "forward", "right", 0.45)
+        elif(msg.data == "REVERSE"):
+            WC.move(100, "backward", "no", 1)
         else:
-            self.get_logger().warning('Messaggio non valido: "%s"' % self.mess.data)
-
-def parseMovement(self):
-    if self.mess is not None:
-      if str(self.mess.data) == "YES":
-        WC.move(100, "backward", "no", 0.5)
-        WC.move(100, "forward", "right", 0.5)
-        WC.move(100, "forward", "left", 0.5)
-        WC.move(100, "forward", "left", 0.67)
-        WC.move(100, "forward", "right", 0.45)
-      else:
-        movementParams = str(self.mess.data).split("/")
-        WC.move(int(movementParams[0]), movementParams[1], movementParams[2], float(movementParams[3]))
-
+            movementParams = msg.data.split("/")
+            WC.move(int(movementParams[0]), movementParams[1], movementParams[2], float(movementParams[3]))
+         
 def main(args=None):
     rclpy.init(args=args)
     minimal_node = WheelsHandler()
